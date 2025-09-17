@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RecurringEvents",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "endDate",
+      "description": "An ISO date in the form `YYYY-MM-DD` or `2011-12-03`",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "monthlyRecurrence",
+      "description": null,
+      "defaultValue": null,
+      "type": "MonthlyRecurrence"
+    },
+    {
+      "name": "weeklyRecurrence",
+      "description": null,
+      "defaultValue": null,
+      "type": "WeeklyRecurrence"
+    }
+  ]
+}

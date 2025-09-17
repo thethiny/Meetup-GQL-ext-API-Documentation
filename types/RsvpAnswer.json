@@ -1,0 +1,13 @@
+{
+  "kind": "OBJECT",
+  "name": "RsvpAnswer",
+  "description": null,
+  "fields": [
+    {
+      "name": "text",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "Pointcut",
+  "description": "type used in @purgePageCache directive\nWhere can the EntityId be found?",
+  "values": [
+    {
+      "name": "INPUT",
+      "description": " in input parameters to mutation"
+    },
+    {
+      "name": "OUTPUT",
+      "description": " in output payload of successful mutation"
+    }
+  ]
+}

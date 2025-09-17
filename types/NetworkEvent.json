@@ -1,0 +1,61 @@
+{
+  "kind": "OBJECT",
+  "name": "NetworkEvent",
+  "description": "A link between between a collection of Events hosted within a Pro Network",
+  "fields": [
+    {
+      "name": "createdAt",
+      "description": "Time network event was created",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "eventTime",
+      "description": "Start time of network event",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "groupCount",
+      "description": "Number of groups participating in the network event",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "id",
+      "description": "Id of Network Event",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "isAnnounced",
+      "description": "If network event has been announced",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "rsvpCount",
+      "description": "Number of the network event attendees",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "status",
+      "description": "Status of network event",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "timezone",
+      "description": "Timezone of network event",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "description": "Title of network event",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

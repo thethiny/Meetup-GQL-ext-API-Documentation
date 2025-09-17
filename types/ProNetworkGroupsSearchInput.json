@@ -1,0 +1,43 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkGroupsSearchInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "after",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "desc",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "filter",
+      "description": null,
+      "defaultValue": null,
+      "type": "NetworkGroupsFilter"
+    },
+    {
+      "name": "first",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "networkEventFilterId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "sort",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

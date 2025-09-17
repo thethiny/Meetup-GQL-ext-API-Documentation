@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RecommendedEventsSort",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "sortField",
+      "description": null,
+      "defaultValue": null,
+      "type": "RecommendedEventsSortField"
+    }
+  ]
+}

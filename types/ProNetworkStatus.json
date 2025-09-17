@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "ProNetworkStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ACTIVE",
+      "description": null
+    },
+    {
+      "name": "FROZEN",
+      "description": null
+    },
+    {
+      "name": "INACTIVE",
+      "description": null
+    }
+  ]
+}

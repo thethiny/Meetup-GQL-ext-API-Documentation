@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "PaymentMethod",
+  "description": null,
+  "values": [
+    {
+      "name": "CASH",
+      "description": null
+    },
+    {
+      "name": "PAYPAL",
+      "description": null
+    }
+  ]
+}

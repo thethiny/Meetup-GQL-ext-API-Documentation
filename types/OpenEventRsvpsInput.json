@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "OpenEventRsvpsInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "eventId",
+      "description": "Identifier of event which will be edited",
+      "defaultValue": null,
+      "type": "ID!"
+    }
+  ]
+}

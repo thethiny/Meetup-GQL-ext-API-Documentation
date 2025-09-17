@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "ProNetworkGroupsSearchEdge",
+  "description": null,
+  "fields": [
+    {
+      "name": "cursor",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "metadata",
+      "description": null,
+      "args": [],
+      "type": "GroupAnalytics"
+    },
+    {
+      "name": "node",
+      "description": null,
+      "args": [],
+      "type": "Group!"
+    }
+  ]
+}

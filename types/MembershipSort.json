@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "MembershipSort",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "sortField",
+      "description": null,
+      "defaultValue": null,
+      "type": "MembershipSortField"
+    },
+    {
+      "name": "sortOrder",
+      "description": null,
+      "defaultValue": null,
+      "type": "SortOrder"
+    }
+  ]
+}

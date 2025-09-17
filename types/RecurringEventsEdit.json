@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RecurringEventsEdit",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "enabled",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean!"
+    },
+    {
+      "name": "settings",
+      "description": null,
+      "defaultValue": null,
+      "type": "RecurringEvents"
+    }
+  ]
+}

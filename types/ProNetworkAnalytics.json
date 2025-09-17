@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "ProNetworkAnalytics",
+  "description": null,
+  "fields": [
+    {
+      "name": "totalCountries",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalGroups",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalMembers",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

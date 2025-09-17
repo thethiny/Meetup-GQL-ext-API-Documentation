@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "PromoCodeDateRangeInput",
+  "description": "Date range when a promo code is valid.",
+  "inputFields": [
+    {
+      "name": "endDate",
+      "description": "Date in a group time zone when the promo code becomes unavailable.\nAn ISO-8601 local date-time, e.g. \"2023-09-19T15:01:52\".",
+      "defaultValue": null,
+      "type": "LocalDateTime!"
+    },
+    {
+      "name": "startDate",
+      "description": "Date in a group time zone when the promo code becomes available.\nAn ISO-8601 local date-time, e.g. \"2023-09-19T15:01:52\".",
+      "defaultValue": null,
+      "type": "LocalDateTime!"
+    }
+  ]
+}

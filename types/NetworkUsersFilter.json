@@ -1,0 +1,109 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "NetworkUsersFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "activeWithinDays",
+      "description": "The range of date from the past until today, for the recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "canReceiveEmails",
+      "description": "Searching only the members who can or cannot receive mass email",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "country",
+      "description": "Country",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventsAttendedMax",
+      "description": "Maximum number of attended events",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "eventsAttendedMin",
+      "description": "Minimum number of attended events",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "excludedUsers",
+      "description": "The members to exclude from result",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "groups",
+      "description": "The groups which the member belongs to",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "joinDateTimeMax",
+      "description": "The latest time limit for member join",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "joinDateTimeMin",
+      "description": "The oldest time limit for member join",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "latitude",
+      "description": "Latitude",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "longitude",
+      "description": "Longitude",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "query",
+      "description": "raw query string to search from member name or city",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "radius",
+      "description": "Search radius in miles",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "roles",
+      "description": "List of member roles to search by",
+      "defaultValue": null,
+      "type": "[Role!]"
+    },
+    {
+      "name": "userName",
+      "description": "Name of the member",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "users",
+      "description": "The member ids that may belong to the organization",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "zip",
+      "description": "Zip code",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

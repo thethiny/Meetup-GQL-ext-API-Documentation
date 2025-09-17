@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "MemberEventSort",
+  "description": "Member events connection sorting.",
+  "inputFields": [
+    {
+      "name": "sortField",
+      "description": "Sort field. Defaults to LOCAL_TIME.",
+      "defaultValue": null,
+      "type": "MemberEventSortField"
+    },
+    {
+      "name": "sortOrder",
+      "description": "Sort order. Defaults to ASC.",
+      "defaultValue": null,
+      "type": "SortOrder"
+    }
+  ]
+}

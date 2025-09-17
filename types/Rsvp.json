@@ -1,0 +1,79 @@
+{
+  "kind": "OBJECT",
+  "name": "Rsvp",
+  "description": null,
+  "fields": [
+    {
+      "name": "answer",
+      "description": "This member's answer to the event RSVP question",
+      "args": [],
+      "type": "RsvpAnswer"
+    },
+    {
+      "name": "event",
+      "description": null,
+      "args": [],
+      "type": "Event!"
+    },
+    {
+      "name": "guestsCount",
+      "description": "The number of guests the member has for this event",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "id",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "isFirstEvent",
+      "description": "Indicator that this RSVP is the first RSVP for member associated with the RSVP",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isHost",
+      "description": "Indicator that the member associated with this RSVP is a host for this event",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "member",
+      "description": null,
+      "args": [],
+      "type": "Member!"
+    },
+    {
+      "name": "membership",
+      "description": "Membership associated with the RSVP. This may be absent for former members",
+      "args": [],
+      "type": "Membership"
+    },
+    {
+      "name": "payStatus",
+      "description": "The current event payment status for the RSVP for ticketed events from the perspective of the provided memberId.\nA payment status is only available if the RSVP belongs to the calling member or if\nthe calling member has permission to manage money within the hosting group.",
+      "args": [],
+      "type": "PayStatus"
+    },
+    {
+      "name": "status",
+      "description": null,
+      "args": [],
+      "type": "RsvpStatus"
+    },
+    {
+      "name": "updated",
+      "description": "time this RSVP was last updated",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "venue",
+      "description": "May be null for physical (in-person) events",
+      "args": [],
+      "type": "Venue"
+    }
+  ]
+}

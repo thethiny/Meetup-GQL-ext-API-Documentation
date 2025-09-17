@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "Role",
+  "description": null,
+  "values": [
+    {
+      "name": "ASST_ORGANIZER",
+      "description": null
+    },
+    {
+      "name": "COORGANIZER",
+      "description": null
+    },
+    {
+      "name": "EVENT_ORGANIZER",
+      "description": null
+    },
+    {
+      "name": "MEMBER",
+      "description": null
+    },
+    {
+      "name": "ORGANIZER",
+      "description": null
+    }
+  ]
+}

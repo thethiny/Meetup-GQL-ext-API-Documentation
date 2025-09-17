@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "MemberNotificationConnection",
+  "description": null,
+  "fields": [
+    {
+      "name": "edges",
+      "description": null,
+      "args": [],
+      "type": "[MemberNotificationEdge!]!"
+    },
+    {
+      "name": "pageInfo",
+      "description": null,
+      "args": [],
+      "type": "PageInfo"
+    },
+    {
+      "name": "totalCount",
+      "description": null,
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "unreadCount",
+      "description": null,
+      "args": [],
+      "type": "Int"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "kind": "OBJECT",
+  "name": "Notification",
+  "description": "An notable activity or event that happened on the platform",
+  "fields": [
+    {
+      "name": "category",
+      "description": null,
+      "args": [],
+      "type": "NotificationCategory!"
+    },
+    {
+      "name": "clicked",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "id",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "important",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "kind",
+      "description": null,
+      "args": [],
+      "type": "NotificationKind!"
+    },
+    {
+      "name": "link",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "photo",
+      "description": null,
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "photoType",
+      "description": null,
+      "args": [],
+      "type": "NotificationPhotoType"
+    },
+    {
+      "name": "read",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "text",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "updatedAt",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    }
+  ]
+}

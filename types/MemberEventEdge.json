@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "MemberEventEdge",
+  "description": "The directed relationship between Member -> Event\nA Member can be associated with an Event\ne.g. a Member attends an Event, a Member hosts an Event",
+  "fields": [
+    {
+      "name": "cursor",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "node",
+      "description": null,
+      "args": [],
+      "type": "Event!"
+    },
+    {
+      "name": "rsvpState",
+      "description": null,
+      "args": [],
+      "type": "RsvpState"
+    }
+  ]
+}

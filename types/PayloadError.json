@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "PayloadError",
+  "description": null,
+  "fields": [
+    {
+      "name": "code",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "field",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "message",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "kind": "OBJECT",
+  "name": "ProNetwork",
+  "description": "Represents pro network information",
+  "fields": [
+    {
+      "name": "allowPhotoUploads",
+      "description": "Whether the network allows members to upload group and event photos",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "contactEmail",
+      "description": "Contact email of the network",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "description": "Description of the network",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "eventRegistrationAnswers",
+      "description": "A list of event registration responses for the events across the entire Pro network",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProEventRegistrationAnswersInput!"
+        }
+      ],
+      "type": "ProEventRegistrationAnswersConnection!"
+    },
+    {
+      "name": "eventsSearch",
+      "description": "Search network groups",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProNetworkEventsSearchInput!"
+        }
+      ],
+      "type": "ProNetworkEventsSearchConnection!"
+    },
+    {
+      "name": "externalUrl",
+      "description": "External URL of the network",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "groupsSearch",
+      "description": "Search network groups",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProNetworkGroupsSearchInput!"
+        }
+      ],
+      "type": "ProNetworkGroupsSearchConnection!"
+    },
+    {
+      "name": "id",
+      "description": "ID of the network",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "isProEmailShared",
+      "description": "If user's email is shared to a network",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "link",
+      "description": "Link for the network on meetup.com",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "logo",
+      "description": "Photo object for the logo",
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "membersSearch",
+      "description": "Search network members",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProNetworkMemberSearchInput!"
+        }
+      ],
+      "type": "ProNetworkMemberSearchConnection!"
+    },
+    {
+      "name": "name",
+      "description": "Display name of the network",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "networkAnalytics",
+      "description": "Pro network stats",
+      "args": [],
+      "type": "ProNetworkAnalytics"
+    },
+    {
+      "name": "paymentModel",
+      "description": "Payment model of the network",
+      "args": [],
+      "type": "ProNetworkPaymentModel!"
+    },
+    {
+      "name": "primaryAdmin",
+      "description": "Primary administrator of the network",
+      "args": [],
+      "type": "Member"
+    },
+    {
+      "name": "rsvpsSearch",
+      "description": "Returns positive RSVPs for a network",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProNetworkRsvpsSearchInput!"
+        }
+      ],
+      "type": "ProNetworkRsvpConnection!"
+    },
+    {
+      "name": "socialNetworks",
+      "description": "A list of links to network's social platforms",
+      "args": [],
+      "type": "[SocialNetwork!]!"
+    },
+    {
+      "name": "sponsors",
+      "description": "A list of network's sponsors",
+      "args": [],
+      "type": "[Sponsor!]!"
+    },
+    {
+      "name": "status",
+      "description": "Status of the network, one of ACTIVE | INACTIVE | FROZEN",
+      "args": [],
+      "type": "ProNetworkStatus!"
+    },
+    {
+      "name": "suggestedEvents",
+      "description": "Get suggested network events",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProNetworkSuggestedEventsInput!"
+        }
+      ],
+      "type": "ProNetworkSuggestedEventsConnection!"
+    },
+    {
+      "name": "urlname",
+      "description": "Urlname used to identify the network on meetup.com",
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

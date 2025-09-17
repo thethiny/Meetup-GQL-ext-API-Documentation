@@ -1,0 +1,23 @@
+{
+  "kind": "ENUM",
+  "name": "QuestionType",
+  "description": null,
+  "values": [
+    {
+      "name": "MULTIPLE",
+      "description": null
+    },
+    {
+      "name": "PHONE",
+      "description": null
+    },
+    {
+      "name": "SINGLE",
+      "description": null
+    },
+    {
+      "name": "TEXT",
+      "description": null
+    }
+  ]
+}

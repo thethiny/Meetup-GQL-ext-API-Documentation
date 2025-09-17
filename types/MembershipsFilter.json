@@ -1,0 +1,49 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "MembershipsFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "groupIds",
+      "description": "Filters memberships based on group",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "groupStatus",
+      "description": "Filters memberships based on group status",
+      "defaultValue": null,
+      "type": "[GroupStatus!]"
+    },
+    {
+      "name": "guestEventHosted",
+      "description": "Filter memberships down to those where the member was a guest host for an event",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "leaderSubset",
+      "description": "When status is provided includes LEADER, leaderSubset indicates a subset of the LEADER status to be returned",
+      "defaultValue": null,
+      "type": "MembershipsFilterLeaderSubset"
+    },
+    {
+      "name": "noUpcomingEvents",
+      "description": "Groups with no upcoming events",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "onlyDues",
+      "description": "Only groups with dues",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "status",
+      "description": "Filters memberships based on membership status",
+      "defaultValue": null,
+      "type": "[MembershipStatus]"
+    }
+  ]
+}

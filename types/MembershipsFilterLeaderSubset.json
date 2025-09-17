@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "MembershipsFilterLeaderSubset",
+  "description": null,
+  "values": [
+    {
+      "name": "PRIMARY",
+      "description": "only the primary leader"
+    },
+    {
+      "name": "SECONDARY",
+      "description": "only the secondary leaders (Co-Organizer, Assistant Organizers, Event Organizers)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "MembershipDuesStatus",
+  "description": "Membership dues status.",
+  "values": [
+    {
+      "name": "EXEMPT",
+      "description": "A member is exempt from paying dues by a group organizer, or the member IS the organizer."
+    },
+    {
+      "name": "GRACE",
+      "description": "A member missed their scheduled dues payment."
+    },
+    {
+      "name": "PAID",
+      "description": "A member has paid dues."
+    },
+    {
+      "name": "TRIAL",
+      "description": "A member is in dues trial."
+    },
+    {
+      "name": "UNPAID",
+      "description": "A member has never paid dues."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "MembershipSortField",
+  "description": null,
+  "values": [
+    {
+      "name": "CREATE_TIME",
+      "description": null
+    },
+    {
+      "name": "EVENT_DATE",
+      "description": null
+    },
+    {
+      "name": "LEADERSHIP_STATUS",
+      "description": null
+    },
+    {
+      "name": "LEADERSHIP_STATUS_NAME",
+      "description": "Sort by leadership status, then by group name"
+    },
+    {
+      "name": "SELF_RSVP_COUNT",
+      "description": "Sort by the number of hosted events the requesting member as RSVP'd to"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "OBJECT",
+  "name": "MembershipDues",
+  "description": "The last known state of member's dues in a group.\n\nThe state is preserved across a member leaving and re-joining a group,\nso that a user may have a dues record in a group while not being a member of that group.",
+  "fields": [
+    {
+      "name": "graceEndDate",
+      "description": "The last known dues grace period end date. Empty if a member has never been in dues grace.",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "method",
+      "description": "The last known membership dues payment method.",
+      "args": [],
+      "type": "MembershipDuesMethod"
+    },
+    {
+      "name": "paidEndDate",
+      "description": "The last known dues payment period end date. Empty if a member has never paid dues.",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "status",
+      "description": "The last known membership dues status.",
+      "args": [],
+      "type": "MembershipDuesStatus"
+    },
+    {
+      "name": "trialEndDate",
+      "description": "The last known dues trial period end date. Empty if a member has never enrolled into a trial.",
+      "args": [],
+      "type": "DateTime"
+    }
+  ]
+}

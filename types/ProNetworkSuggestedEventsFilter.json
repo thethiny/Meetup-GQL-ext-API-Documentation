@@ -1,0 +1,31 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkSuggestedEventsFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "isOnline",
+      "description": "Filter only online/physical events",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "latitude",
+      "description": "Latitude",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "longitude",
+      "description": "Longitude",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "radius",
+      "description": "Search radius in miles",
+      "defaultValue": null,
+      "type": "Float"
+    }
+  ]
+}

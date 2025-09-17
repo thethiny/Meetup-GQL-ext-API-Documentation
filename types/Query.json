@@ -1,0 +1,251 @@
+{
+  "kind": "OBJECT",
+  "name": "Query",
+  "description": null,
+  "fields": [
+    {
+      "name": "event",
+      "description": "Returns an event according to requested id",
+      "args": [
+        {
+          "name": "id",
+          "description": "Alphanumeric identifier for the event",
+          "defaultValue": null,
+          "type": "ID!"
+        }
+      ],
+      "type": "Event"
+    },
+    {
+      "name": "eventSearch",
+      "description": "Search events using keywords and a location.",
+      "args": [
+        {
+          "name": "after",
+          "description": "The start pointer for search results. For pagination. Default is base64 of `0`.",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "dataConfiguration",
+          "description": "String propagated to the data api to allow customizing the clients experience",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": "Filter to minimize the list of results",
+          "defaultValue": null,
+          "type": "EventSearchFilter!"
+        },
+        {
+          "name": "first",
+          "description": "Number of results to get.",
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": "Sorts results",
+          "defaultValue": null,
+          "type": "KeywordSort"
+        }
+      ],
+      "type": "EventSearchConnection!"
+    },
+    {
+      "name": "group",
+      "description": "Fetch a single group by its id",
+      "args": [
+        {
+          "name": "id",
+          "description": null,
+          "defaultValue": null,
+          "type": "ID!"
+        }
+      ],
+      "type": "Group"
+    },
+    {
+      "name": "groupByUrlname",
+      "description": "Fetch a single group by its urlname",
+      "args": [
+        {
+          "name": "urlname",
+          "description": null,
+          "defaultValue": null,
+          "type": "String!"
+        }
+      ],
+      "type": "Group"
+    },
+    {
+      "name": "groupSearch",
+      "description": "Search groups using keywords and a location.",
+      "args": [
+        {
+          "name": "after",
+          "description": "The start pointer for search results. For pagination. Default is ''.",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "dataConfiguration",
+          "description": "String propagated to the data api to allow customizing the clients experience",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": "Filter to minimize the list of results",
+          "defaultValue": null,
+          "type": "GroupSearchFilter!"
+        },
+        {
+          "name": "first",
+          "description": "Number of results to get.",
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "GroupSearchConnection!"
+    },
+    {
+      "name": "proNetwork",
+      "description": "Query a Pro Network by either id or urlname",
+      "args": [
+        {
+          "name": "id",
+          "description": "Pro Network Id",
+          "defaultValue": null,
+          "type": "ID"
+        },
+        {
+          "name": "urlname",
+          "description": "Pro Network Urlname",
+          "defaultValue": null,
+          "type": "ID"
+        }
+      ],
+      "type": "ProNetwork"
+    },
+    {
+      "name": "recommendedEvents",
+      "description": "Search events using only location.",
+      "args": [
+        {
+          "name": "after",
+          "description": "The start pointer for search results. Default is base64 of `0`.",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "dataConfiguration",
+          "description": "String propagated to the data api to allow customizing the clients experience",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": "Filter to minimize the list of results",
+          "defaultValue": null,
+          "type": "RecommendedEventsFilter!"
+        },
+        {
+          "name": "first",
+          "description": "Number of results to get.",
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": "Sorts results",
+          "defaultValue": null,
+          "type": "RecommendedEventsSort"
+        }
+      ],
+      "type": "RecommendedEventsConnection!"
+    },
+    {
+      "name": "recommendedGroups",
+      "description": null,
+      "args": [
+        {
+          "name": "after",
+          "description": "The start pointer for search results. Default is base64 of `0`.",
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": "Filter to minimize the list of results",
+          "defaultValue": null,
+          "type": "RecommendedGroupsFilter!"
+        },
+        {
+          "name": "first",
+          "description": "Number of results to get.",
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "ignoreNewGroups",
+          "description": "do not show new groups",
+          "defaultValue": null,
+          "type": "Boolean"
+        }
+      ],
+      "type": "RecommendedGroupsConnection!"
+    },
+    {
+      "name": "self",
+      "description": "The currently authenticated member",
+      "args": [],
+      "type": "Member"
+    },
+    {
+      "name": "suggestTopics",
+      "description": "Suggest topics given a search term",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "excludeMemberTopics",
+          "description": "Indicate if topics the member already added to own topics should be omitted.",
+          "defaultValue": null,
+          "type": "Boolean"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "query",
+          "description": null,
+          "defaultValue": null,
+          "type": "String!"
+        }
+      ],
+      "type": "TopicsConnection!"
+    },
+    {
+      "name": "topicCategories",
+      "description": "List top level topic categories",
+      "args": [
+        {
+          "name": "includeNewGroups",
+          "description": "indicates whether a special 'New Groups' category should be included in the response.",
+          "defaultValue": null,
+          "type": "Boolean"
+        }
+      ],
+      "type": "TopicCategoryConnection"
+    }
+  ]
+}

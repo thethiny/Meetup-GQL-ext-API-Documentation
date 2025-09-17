@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "RefundPolicy",
+  "description": null,
+  "fields": [
+    {
+      "name": "days",
+      "description": null,
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "notes",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

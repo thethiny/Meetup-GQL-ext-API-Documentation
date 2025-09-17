@@ -1,0 +1,31 @@
+{
+  "kind": "ENUM",
+  "name": "NotificationCategory",
+  "description": "derived from\nAct.Category.values().sorted.foreach(println)",
+  "values": [
+    {
+      "name": "COMMENT",
+      "description": null
+    },
+    {
+      "name": "DEFAULT",
+      "description": null
+    },
+    {
+      "name": "EVENT",
+      "description": null
+    },
+    {
+      "name": "GROUP",
+      "description": null
+    },
+    {
+      "name": "MONEY",
+      "description": null
+    },
+    {
+      "name": "PHOTO",
+      "description": null
+    }
+  ]
+}

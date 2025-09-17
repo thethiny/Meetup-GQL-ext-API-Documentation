@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "MonthlyRecurrenceInfo",
+  "description": null,
+  "fields": [
+    {
+      "name": "monthlyDayOfWeek",
+      "description": "The day of the week event this will be hosted on",
+      "args": [],
+      "type": "DayOfWeek!"
+    },
+    {
+      "name": "monthlyWeekOfMonth",
+      "description": "Integer value between 1-7 (Monday-Sunday) for the day of week the recurrence occurs upon",
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

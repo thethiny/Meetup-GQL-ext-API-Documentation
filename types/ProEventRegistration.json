@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "ProEventRegistration",
+  "description": null,
+  "fields": [
+    {
+      "name": "answers",
+      "description": null,
+      "args": [],
+      "type": "[ProEventRegistrationAnswer!]"
+    },
+    {
+      "name": "event",
+      "description": null,
+      "args": [],
+      "type": "Event!"
+    },
+    {
+      "name": "member",
+      "description": null,
+      "args": [],
+      "type": "Member!"
+    },
+    {
+      "name": "updatedAt",
+      "description": null,
+      "args": [],
+      "type": "DateTime!"
+    }
+  ]
+}

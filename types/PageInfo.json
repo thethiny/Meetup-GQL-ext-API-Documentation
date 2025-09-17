@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "PageInfo",
+  "description": null,
+  "fields": [
+    {
+      "name": "endCursor",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "hasNextPage",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "hasPreviousPage",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "startCursor",
+      "description": null,
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

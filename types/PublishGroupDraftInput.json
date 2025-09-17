@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "PublishGroupDraftInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "ticketId",
+      "description": "Id of a ticket issued by a Pro network sponsoring the organizer.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "token",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    }
+  ]
+}

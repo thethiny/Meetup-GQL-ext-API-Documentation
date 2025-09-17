@@ -1,0 +1,109 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "NetworkEventsFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "country",
+      "description": "Country",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventDateMax",
+      "description": "The latest time an event starts",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "eventDateMin",
+      "description": "The earliest time an event starts",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "excludedGroupIds",
+      "description": "the excluded groups ids",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "groupIds",
+      "description": "the groups ids that may belong to the organization",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "groupUrlnames",
+      "description": "the urlnames of chapters that may belong to the organization",
+      "defaultValue": null,
+      "type": "[String!]"
+    },
+    {
+      "name": "hosts",
+      "description": "Hosts of the event looking for",
+      "defaultValue": null,
+      "type": "[String!]"
+    },
+    {
+      "name": "isOnlineEvent",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "latitude",
+      "description": "Latitude",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "longitude",
+      "description": "Longitude",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "query",
+      "description": "Raw query to search from group name, description, leadership member name, or city",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "radius",
+      "description": "Search radius in miles",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "rsvpsPerEventMax",
+      "description": "The maximum number of rsvps",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "rsvpsPerEventMin",
+      "description": "The minimum number of rsvps",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "description": "Statuses of the event looking for",
+      "defaultValue": null,
+      "type": "[String!]"
+    },
+    {
+      "name": "title",
+      "description": "Title of the event looking for",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "zip",
+      "description": "Zip code",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

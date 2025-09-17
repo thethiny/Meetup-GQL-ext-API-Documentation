@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "ProEventRegistrationAnswer",
+  "description": null,
+  "fields": [
+    {
+      "name": "answer",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "question",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

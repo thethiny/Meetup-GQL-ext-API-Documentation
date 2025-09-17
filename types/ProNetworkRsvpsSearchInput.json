@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkRsvpsSearchInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "after",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "first",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    }
+  ]
+}

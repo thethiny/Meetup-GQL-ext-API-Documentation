@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "ProNetworkTieStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ACTIVE",
+      "description": null
+    },
+    {
+      "name": "DELISTED",
+      "description": null
+    },
+    {
+      "name": "INACTIVE",
+      "description": null
+    }
+  ]
+}

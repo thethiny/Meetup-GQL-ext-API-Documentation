@@ -1,0 +1,205 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "NetworkGroupsFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "activeGroups",
+      "description": "only active groups if true, only delisted if false",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "activeWithinDays",
+      "description": "including only those groups that had event in the last specified days",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "averageAgeMax",
+      "description": "Maximum range of the number of age",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "averageAgeMin",
+      "description": "Minimum range of the number of age",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "categories",
+      "description": "the ids of the category of the group",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "country",
+      "description": "Country",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "excludedGroupIds",
+      "description": "the excluded groups ids",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "foundedDateMax",
+      "description": "Maximum range of the date that the group founded",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "foundedDateMin",
+      "description": "Minimum range of the date that the group founded",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "groupIds",
+      "description": "the groups ids that may belong to the organization",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "groupUrlnames",
+      "description": "the urlnames of chapters that may belong to the organization",
+      "defaultValue": null,
+      "type": "[String!]"
+    },
+    {
+      "name": "inactiveWithinDays",
+      "description": "including only those groups that did not have event in the last specified days",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "lastEventMax",
+      "description": "Maximum range of the date that the last meetup happened",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "lastEventMin",
+      "description": "Minimum range of the date that the last meetup happened",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "latitude",
+      "description": "Latitude",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "leadershipMemberIds",
+      "description": "The ids of leadership team members",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "longitude",
+      "description": "Longitude",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "memberCountMax",
+      "description": "Maximum range of the number of members",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "memberCountMin",
+      "description": "Minimum range of the number of members",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "name",
+      "description": "Name of the group looking for",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "nextEventMax",
+      "description": "Maximum range of the date that the next meetup is scheduled",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "nextEventMin",
+      "description": "Minimum range of the date that the next meetup is scheduled",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "pastEventsMax",
+      "description": "Maximum range of the number of the past events held",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "pastEventsMin",
+      "description": "Minimum range of the number of the past events held",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "proJoinDateMax",
+      "description": "Maximum range of the dates the groups joined Pro organization",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "proJoinDateMin",
+      "description": "Minimum range of the dates the groups joined Pro organization",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "query",
+      "description": "Raw query to search from group name, description, leadership member name, or city",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "radius",
+      "description": "Search radius in miles",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "repeatRsvpersMax",
+      "description": "Maximum range of the average number of repeat rsvpers",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "repeatRsvpersMin",
+      "description": "Minimum range of the average number of repeat rsvpers",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "upcomingEventsMax",
+      "description": "Maximum range of the number of the upcoming events",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "upcomingEventsMin",
+      "description": "Minimum range of the number of the upcoming events",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "zip",
+      "description": "Zip code",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

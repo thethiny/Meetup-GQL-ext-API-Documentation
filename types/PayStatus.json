@@ -1,0 +1,39 @@
+{
+  "kind": "ENUM",
+  "name": "PayStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ECHECK_PENDING",
+      "description": null
+    },
+    {
+      "name": "EXEMPT",
+      "description": null
+    },
+    {
+      "name": "NONE",
+      "description": null
+    },
+    {
+      "name": "PAID",
+      "description": null
+    },
+    {
+      "name": "PARTIAL_REFUND",
+      "description": null
+    },
+    {
+      "name": "PENDING",
+      "description": null
+    },
+    {
+      "name": "REFUNDED",
+      "description": null
+    },
+    {
+      "name": "REFUND_PENDING",
+      "description": null
+    }
+  ]
+}

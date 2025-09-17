@@ -1,0 +1,37 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkEventsSearchInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "after",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "desc",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "filter",
+      "description": null,
+      "defaultValue": null,
+      "type": "NetworkEventsFilter"
+    },
+    {
+      "name": "first",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "sort",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "ENUM",
+  "name": "MemberStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ACTIVE",
+      "description": null
+    },
+    {
+      "name": "BLOCKED",
+      "description": null
+    },
+    {
+      "name": "BOUNCED",
+      "description": null
+    },
+    {
+      "name": "INVISIBLE",
+      "description": null
+    },
+    {
+      "name": "PENDING",
+      "description": null
+    },
+    {
+      "name": "PENDREMOVED",
+      "description": null
+    },
+    {
+      "name": "PREREGISTERED",
+      "description": null
+    },
+    {
+      "name": "REMOVED",
+      "description": null
+    },
+    {
+      "name": "UNVERIFIED",
+      "description": null
+    }
+  ]
+}

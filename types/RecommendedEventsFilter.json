@@ -1,0 +1,205 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RecommendedEventsFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "boostEventsWithAtLeastNumImagesInChapter",
+      "description": "Boost events from chapters with at least N photos",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "categoryId",
+      "description": "The id of category of the event",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "cityLocations",
+      "description": "City Boroughs or Neighborhoods Locations",
+      "defaultValue": null,
+      "type": "[CityLocation!]"
+    },
+    {
+      "name": "country",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "doConsolidateEvents",
+      "description": "If true, consolidate events in series and return the latest event of the series/recurring events",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "doPromotePaypalEvents",
+      "description": "If true, get a paypal event and put it into third search result",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "endDateRange",
+      "description": "The maximal date for filtering",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "endTime",
+      "description": "The end time of day to filter events to",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventType",
+      "description": "The type of the event",
+      "defaultValue": null,
+      "type": "EventType"
+    },
+    {
+      "name": "groupJoinMode",
+      "description": "Who can join the group hosting the event and how. One of \"approval\", \"closed\", or \"open\"",
+      "defaultValue": null,
+      "type": "GroupJoinMode"
+    },
+    {
+      "name": "groupList",
+      "description": "Limit the event recommendations to a set of groups",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "hasJoinQuestions",
+      "description": "If the group hosting the event has join questions",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "indexAlias",
+      "description": "ElasticSearch index or alias to query",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "isHappeningNow",
+      "description": "The event is happening now",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "isStartingSoon",
+      "description": "Events starting within the hour",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "joinReasons",
+      "description": "List of reasons to filter events more further",
+      "defaultValue": null,
+      "type": "[ReasonForJoining!]"
+    },
+    {
+      "name": "lat",
+      "description": "Latitude where the event is held.\nIf Lat/lon is not used, then \"city, state, country\" are used.",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "lon",
+      "description": "Longitude where the event is held\nIf Lat/lon is not used, then \"city, state, country\" are used.",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "penalizeOnlineEvents",
+      "description": "Penalize online events",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "prioritizeRsvps",
+      "description": "Prioritize groups with recent RSVP",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "radius",
+      "description": "Radius of searching the event (in miles).",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "requiresPhotoToJoin",
+      "description": "If the group hosting the event requires a photo to join",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "startDateRange",
+      "description": "The minimal date for filtering",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "startTime",
+      "description": "The start time of day to filter events from",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "state",
+      "description": "Location-related state",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "timeDecayOffset",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "timeDecayScale",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "topicCategoryId",
+      "description": "The id of topicCategory [from topic taxonomy] of the event.\nUsed if categoryId is empty.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "topicList",
+      "description": "A list of topic ids which are used to filter for groups",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "usePayPalEvents",
+      "description": "If the events should require payment or not",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "useTimeOfDayEmbedding",
+      "description": "Use time of day embedding",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "zip",
+      "description": "Location-related zip code",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

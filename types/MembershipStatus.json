@@ -1,0 +1,63 @@
+{
+  "kind": "ENUM",
+  "name": "MembershipStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ABANDONED",
+      "description": null
+    },
+    {
+      "name": "ACTIVE",
+      "description": "Active member that is not part of the Group's leadership team"
+    },
+    {
+      "name": "BLOCKED",
+      "description": null
+    },
+    {
+      "name": "BOOTED",
+      "description": null
+    },
+    {
+      "name": "BOUNCED",
+      "description": null
+    },
+    {
+      "name": "DEAD",
+      "description": null
+    },
+    {
+      "name": "GROUP_BLOCKED",
+      "description": null
+    },
+    {
+      "name": "GROUP_BLOCKED_ORG",
+      "description": null
+    },
+    {
+      "name": "INCOMPLETE",
+      "description": null
+    },
+    {
+      "name": "LEADER",
+      "description": "Leaders are Organizers, Co-Organizers, Assistant Organizers, OR Event Organizers"
+    },
+    {
+      "name": "PENDING",
+      "description": "Pending organizer join approval"
+    },
+    {
+      "name": "PENDING_PAYMENT",
+      "description": "Pending membership dues payment"
+    },
+    {
+      "name": "REMOVED",
+      "description": null
+    },
+    {
+      "name": "UNAPPROVED",
+      "description": null
+    }
+  ]
+}

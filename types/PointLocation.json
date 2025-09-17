@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "PointLocation",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "latitude",
+      "description": "Latitude of the city",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "longitude",
+      "description": "Longitude of the city",
+      "defaultValue": null,
+      "type": "Float!"
+    }
+  ]
+}

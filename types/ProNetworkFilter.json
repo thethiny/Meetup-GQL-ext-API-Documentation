@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "status",
+      "description": null,
+      "defaultValue": null,
+      "type": "[ProNetworkTieStatus]"
+    }
+  ]
+}

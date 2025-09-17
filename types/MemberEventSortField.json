@@ -1,0 +1,23 @@
+{
+  "kind": "ENUM",
+  "name": "MemberEventSortField",
+  "description": "Member events sort options.",
+  "values": [
+    {
+      "name": "CTIME",
+      "description": "Sort member events by last creation time."
+    },
+    {
+      "name": "LOCAL_TIME",
+      "description": "Sort member events by local time."
+    },
+    {
+      "name": "MTIME",
+      "description": "Sort member events by last modification time."
+    },
+    {
+      "name": "ROLE",
+      "description": "Sort member events by a role the member has in the corresponding group."
+    }
+  ]
+}

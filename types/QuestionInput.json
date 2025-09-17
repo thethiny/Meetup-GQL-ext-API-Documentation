@@ -1,0 +1,43 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "QuestionInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "id",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "name",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "options",
+      "description": null,
+      "defaultValue": null,
+      "type": "[String!]"
+    },
+    {
+      "name": "order",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "required",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean!"
+    },
+    {
+      "name": "type",
+      "description": null,
+      "defaultValue": null,
+      "type": "QuestionType!"
+    }
+  ]
+}

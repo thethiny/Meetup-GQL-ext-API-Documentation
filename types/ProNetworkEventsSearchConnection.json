@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "ProNetworkEventsSearchConnection",
+  "description": null,
+  "fields": [
+    {
+      "name": "edges",
+      "description": null,
+      "args": [],
+      "type": "[ProNetworkEventsSearchEdge!]!"
+    },
+    {
+      "name": "pageInfo",
+      "description": null,
+      "args": [],
+      "type": "PageInfo!"
+    },
+    {
+      "name": "totalCount",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

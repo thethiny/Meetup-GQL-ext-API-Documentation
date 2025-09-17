@@ -1,0 +1,23 @@
+{
+  "kind": "ENUM",
+  "name": "ReasonForJoining",
+  "description": null,
+  "values": [
+    {
+      "name": "BUILD_PROFESSIONAL_NETWORK",
+      "description": null
+    },
+    {
+      "name": "MAKING_FRIENDS",
+      "description": null
+    },
+    {
+      "name": "PRACTICE_HOBBY",
+      "description": null
+    },
+    {
+      "name": "SOCIALIZING",
+      "description": null
+    }
+  ]
+}

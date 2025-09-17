@@ -1,0 +1,31 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkEventsInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "filterId",
+      "description": "A network filter to apply Event changes to",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "fromEventId",
+      "description": "An ID of an event we are copying from",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "stopPropagation",
+      "description": "A signifier to stop the propagation of this event",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "timezone",
+      "description": "An override the timezone the Event will be scheduled in",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

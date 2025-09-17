@@ -1,0 +1,37 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "MembershipFilter",
+  "description": "Membership filter on group",
+  "inputFields": [
+    {
+      "name": "excludeMemberIds",
+      "description": null,
+      "defaultValue": null,
+      "type": "[Int!]"
+    },
+    {
+      "name": "memberIds",
+      "description": null,
+      "defaultValue": null,
+      "type": "[Int!]"
+    },
+    {
+      "name": "name",
+      "description": "Filter memberships by user name",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "namedQuery",
+      "description": null,
+      "defaultValue": null,
+      "type": "GroupMembersNamedQuery"
+    },
+    {
+      "name": "status",
+      "description": null,
+      "defaultValue": null,
+      "type": "[MembershipStatus]"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "PublishEventDraftInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "eventId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "ProNetworkMemberSearchEdge",
+  "description": null,
+  "fields": [
+    {
+      "name": "cursor",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "metadata",
+      "description": null,
+      "args": [],
+      "type": "MemberAnalytics"
+    },
+    {
+      "name": "node",
+      "description": null,
+      "args": [],
+      "type": "Member!"
+    }
+  ]
+}

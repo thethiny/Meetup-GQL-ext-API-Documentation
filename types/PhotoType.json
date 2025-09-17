@@ -1,0 +1,47 @@
+{
+  "kind": "ENUM",
+  "name": "PhotoType",
+  "description": null,
+  "values": [
+    {
+      "name": "ALBUM_PHOTO",
+      "description": null
+    },
+    {
+      "name": "EMAIL_PHOTO",
+      "description": null
+    },
+    {
+      "name": "EVENT_CHAT_PHOTO",
+      "description": null
+    },
+    {
+      "name": "EVENT_PHOTO",
+      "description": null
+    },
+    {
+      "name": "GROUP_PHOTO",
+      "description": null
+    },
+    {
+      "name": "MEMBER_PHOTO",
+      "description": null
+    },
+    {
+      "name": "NETWORK_BG",
+      "description": null
+    },
+    {
+      "name": "NETWORK_LOGO",
+      "description": null
+    },
+    {
+      "name": "PRO_BULK_GROUP_PHOTO",
+      "description": null
+    },
+    {
+      "name": "SPONSOR_LOGO",
+      "description": null
+    }
+  ]
+}

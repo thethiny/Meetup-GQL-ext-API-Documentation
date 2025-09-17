@@ -1,0 +1,183 @@
+{
+  "kind": "ENUM",
+  "name": "NotificationKind",
+  "description": "derived from\nNotificationBusiness.KINDS.asScala.map(_.toUpperCase).toList.sorted.foreach(println)",
+  "values": [
+    {
+      "name": "ATTENDANCE_REMINDER",
+      "description": null
+    },
+    {
+      "name": "COMMENT",
+      "description": null
+    },
+    {
+      "name": "CUSTOM",
+      "description": null
+    },
+    {
+      "name": "DONATION_EXPIRE_NOTICE",
+      "description": null
+    },
+    {
+      "name": "DONATION_POTENTIAL_PAYMENT",
+      "description": null
+    },
+    {
+      "name": "DUES",
+      "description": null
+    },
+    {
+      "name": "DUES_CONFIRM",
+      "description": null
+    },
+    {
+      "name": "DUES_TRIAL_NOTICE",
+      "description": null
+    },
+    {
+      "name": "EVENT_ANNOUNCE",
+      "description": null
+    },
+    {
+      "name": "EVENT_ANNOUNCE_TO_ORGS",
+      "description": null
+    },
+    {
+      "name": "EVENT_ANNOUNCE_UNTRUSTED",
+      "description": null
+    },
+    {
+      "name": "EVENT_CANCEL",
+      "description": null
+    },
+    {
+      "name": "EVENT_CHANGE",
+      "description": null
+    },
+    {
+      "name": "EVENT_CHAT_MESSAGE",
+      "description": null
+    },
+    {
+      "name": "EVENT_INTEREST_ORG_PUSH",
+      "description": null
+    },
+    {
+      "name": "EVENT_REMINDER",
+      "description": null
+    },
+    {
+      "name": "EXTERNAL_URL",
+      "description": null
+    },
+    {
+      "name": "FINAL_ATTENDANCE_REMINDER",
+      "description": null
+    },
+    {
+      "name": "GROUP_ANNOUNCE",
+      "description": null
+    },
+    {
+      "name": "GROUP_ANNOUNCE_PUSH",
+      "description": null
+    },
+    {
+      "name": "INVITATION_ACCEPTANCE",
+      "description": null
+    },
+    {
+      "name": "JOIN",
+      "description": null
+    },
+    {
+      "name": "LIKE",
+      "description": null
+    },
+    {
+      "name": "MUG_COMM_ANNOUNCE",
+      "description": null
+    },
+    {
+      "name": "MUG_COMM_COMMENT",
+      "description": null
+    },
+    {
+      "name": "MUG_COMM_COMMENT_LIKE",
+      "description": null
+    },
+    {
+      "name": "MUG_COMM_CONVERSATION_LIKE",
+      "description": null
+    },
+    {
+      "name": "MUG_COMM_INVITE",
+      "description": null
+    },
+    {
+      "name": "NETWORK_EVENT_ANNOUNCE",
+      "description": null
+    },
+    {
+      "name": "NETWORK_EVENT_ANNOUNCE_TO_ORGS",
+      "description": null
+    },
+    {
+      "name": "NETWORK_EVENT_ANNOUNCE_UNTRUSTED",
+      "description": null
+    },
+    {
+      "name": "ORG_APPROVE",
+      "description": null
+    },
+    {
+      "name": "OUTSIDE_MUP_REC",
+      "description": "deprecated"
+    },
+    {
+      "name": "PENDING_MEMBER",
+      "description": null
+    },
+    {
+      "name": "PHOTO",
+      "description": null
+    },
+    {
+      "name": "PHOTO_TAG",
+      "description": null
+    },
+    {
+      "name": "POST_ATTENDANCE",
+      "description": null
+    },
+    {
+      "name": "POST_EVENT_FEEDBACK",
+      "description": null
+    },
+    {
+      "name": "REPLY",
+      "description": null
+    },
+    {
+      "name": "RSVP",
+      "description": null
+    },
+    {
+      "name": "RSVP_CONFIRM",
+      "description": null
+    },
+    {
+      "name": "SAVED_EVENT_REMINDER",
+      "description": null
+    },
+    {
+      "name": "SPOT_OPEN",
+      "description": null
+    },
+    {
+      "name": "WEBVIEW_URL",
+      "description": null
+    }
+  ]
+}

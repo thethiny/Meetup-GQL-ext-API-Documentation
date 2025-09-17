@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "MonthlyRecurrence",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "monthlyDayOfWeek",
+      "description": "The day of the week this event will be hosted on",
+      "defaultValue": null,
+      "type": "DayOfWeek!"
+    },
+    {
+      "name": "monthlyWeekOfMonth",
+      "description": "Integer value between 1-7 (Monday-Sunday) for the day of week the recurrence occurs upon",
+      "defaultValue": null,
+      "type": "Int!"
+    }
+  ]
+}

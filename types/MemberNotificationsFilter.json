@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "MemberNotificationsFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "organizerOnly",
+      "description": "Limits to the notifications to only those for organizers",
+      "defaultValue": null,
+      "type": "Boolean"
+    }
+  ]
+}

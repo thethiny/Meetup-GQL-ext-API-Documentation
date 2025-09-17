@@ -1,0 +1,37 @@
+{
+  "kind": "OBJECT",
+  "name": "PhotoInfo",
+  "description": "Standard photo information",
+  "fields": [
+    {
+      "name": "baseUrl",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "highResUrl",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "id",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "standardUrl",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "thumbUrl",
+      "description": null,
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

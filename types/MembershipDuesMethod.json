@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "MembershipDuesMethod",
+  "description": "A membership dues payment collection method.",
+  "values": [
+    {
+      "name": "CASH",
+      "description": null
+    },
+    {
+      "name": "OTHER",
+      "description": null
+    },
+    {
+      "name": "PAYPAL",
+      "description": null
+    },
+    {
+      "name": "STRIPE",
+      "description": null
+    },
+    {
+      "name": "WEPAY",
+      "description": null
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "OBJECT",
+  "name": "Membership",
+  "description": "Represents a specific Member in the context of a specific Group",
+  "fields": [
+    {
+      "name": "bio",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "dues",
+      "description": null,
+      "args": [],
+      "type": "MembershipDues"
+    },
+    {
+      "name": "joinTime",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "lastAccessTime",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "role",
+      "description": "The role of the Member within this group. This determines the member's action and visibility\npermissions. This may be null in cases where the member does not have an active status, i.e. PENDING_PAYMENT",
+      "args": [],
+      "type": "Role"
+    },
+    {
+      "name": "rsvpStats",
+      "description": "Rsvp statistics associated with this member",
+      "args": [],
+      "type": "MembershipRsvpStats!"
+    },
+    {
+      "name": "status",
+      "description": null,
+      "args": [],
+      "type": "MembershipStatus!"
+    }
+  ]
+}

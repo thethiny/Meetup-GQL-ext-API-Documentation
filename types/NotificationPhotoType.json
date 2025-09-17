@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "NotificationPhotoType",
+  "description": null,
+  "values": [
+    {
+      "name": "EVENT",
+      "description": null
+    },
+    {
+      "name": "MEMBER",
+      "description": null
+    }
+  ]
+}

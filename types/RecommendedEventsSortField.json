@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "RecommendedEventsSortField",
+  "description": null,
+  "values": [
+    {
+      "name": "DATETIME",
+      "description": "Results will be sorted by datetime"
+    },
+    {
+      "name": "RELEVANCE",
+      "description": null
+    }
+  ]
+}

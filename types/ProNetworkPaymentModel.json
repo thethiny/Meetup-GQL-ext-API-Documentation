@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "ProNetworkPaymentModel",
+  "description": null,
+  "values": [
+    {
+      "name": "OWNERSHIP",
+      "description": null
+    },
+    {
+      "name": "SPONSORSHIP",
+      "description": null
+    }
+  ]
+}

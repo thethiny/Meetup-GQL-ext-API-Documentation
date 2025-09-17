@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "PublishStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "DRAFT",
+      "description": "Visible to leadership team"
+    },
+    {
+      "name": "PUBLISHED",
+      "description": "Visible to the group"
+    }
+  ]
+}

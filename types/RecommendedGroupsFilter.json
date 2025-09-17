@@ -1,0 +1,103 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RecommendedGroupsFilter",
+  "description": "Filter for recommendedGroups (aka rankedGroups)",
+  "inputFields": [
+    {
+      "name": "categoryId",
+      "description": "An optional category ID to further filter down to groups in a particular category",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "frozenOnly",
+      "description": "Whether to look for groups with FROZEN status only",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "groupJoinMode",
+      "description": "Who can join this group and how. One of \"approval\", \"closed\", or \"open\"",
+      "defaultValue": null,
+      "type": "GroupJoinMode"
+    },
+    {
+      "name": "hasJoinQuestions",
+      "description": "If the group has join questions",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "indexAlias",
+      "description": "ElasticSearch index or alias to query",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "lat",
+      "description": "The latitude of the centroid around which we want to show Groups",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "lon",
+      "description": "The longitude of the centroid around which we want to show Groups",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "prioritizeRsvps",
+      "description": "Prioritize groups with recent RSVP",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "radius",
+      "description": "A radius to filter groups outside the provided lat/lon. Default = 50 miles.\nNew-group search defaults to 3000 miles.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "requiresPhotoToJoin",
+      "description": "If the group requires a photo to join",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "timeDecayOffset",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "timeDecayScale",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "topicCategoryId",
+      "description": "An optional topicCategoryID [from topic taxonomy] to further filter down to Groups in a particular category only.\nUsed if categoryId is empty.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "topicsList",
+      "description": "A list of topic ids which are used to filter for groups",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "useTimeOfDayEmbedding",
+      "description": "Use time of day embedding",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "visibility",
+      "description": "A visibility group. Default = all",
+      "defaultValue": null,
+      "type": "GroupVisibility"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProEventRegistrationAnswersFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "eventIds",
+      "description": null,
+      "defaultValue": null,
+      "type": "[ID!]"
+    }
+  ]
+}

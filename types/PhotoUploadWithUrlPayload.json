@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "PhotoUploadWithUrlPayload",
+  "description": "The result of request for uploading the image",
+  "fields": [
+    {
+      "name": "error",
+      "description": "will only be populated if there is a non-system error during processing",
+      "args": [],
+      "type": "PayloadError"
+    },
+    {
+      "name": "imagePath",
+      "description": "image url",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "photo",
+      "description": "The object which contain the image info",
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "uploadUrl",
+      "description": "The url, which can be used for uploading the image",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

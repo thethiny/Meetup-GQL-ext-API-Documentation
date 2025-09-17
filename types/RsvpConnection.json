@@ -1,0 +1,61 @@
+{
+  "kind": "OBJECT",
+  "name": "RsvpConnection",
+  "description": null,
+  "fields": [
+    {
+      "name": "absentCount",
+      "description": "total overall count of members marked as absent",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "attendedCount",
+      "description": "total overall count of members marked as attended",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "edges",
+      "description": null,
+      "args": [],
+      "type": "[RsvpEdge!]!"
+    },
+    {
+      "name": "noCount",
+      "description": "total overall count of no RSVPS",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "noShowCount",
+      "description": "total overall count of members marked as a no show",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "pageInfo",
+      "description": null,
+      "args": [],
+      "type": "PageInfo"
+    },
+    {
+      "name": "totalCount",
+      "description": "total overall count of RSVPs based on requested RSVP statuses",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "waitlistCount",
+      "description": "total overall count of waitlisted RSVPS",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "yesCount",
+      "description": "total overall count of yes RSVPS",
+      "args": [],
+      "type": "Int"
+    }
+  ]
+}

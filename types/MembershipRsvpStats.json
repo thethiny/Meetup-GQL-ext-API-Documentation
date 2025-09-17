@@ -1,0 +1,13 @@
+{
+  "kind": "OBJECT",
+  "name": "MembershipRsvpStats",
+  "description": null,
+  "fields": [
+    {
+      "name": "noShowCount",
+      "description": "total overall count of no show attendances",
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

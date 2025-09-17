@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProEventRegistrationAnswersInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "after",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "filter",
+      "description": null,
+      "defaultValue": null,
+      "type": "ProEventRegistrationAnswersFilter"
+    },
+    {
+      "name": "first",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    }
+  ]
+}

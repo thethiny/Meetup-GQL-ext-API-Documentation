@@ -1,0 +1,221 @@
+{
+  "kind": "OBJECT",
+  "name": "Mutation",
+  "description": null,
+  "fields": [
+    {
+      "name": "addGroupToNetwork",
+      "description": null,
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "AddGroupToNetworkInput!"
+        }
+      ],
+      "type": "AddGroupToNetworkPayload!"
+    },
+    {
+      "name": "announceEvent",
+      "description": "Request to announce the event",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "AnnounceEventInput!"
+        }
+      ],
+      "type": "AnnounceEventPayload!"
+    },
+    {
+      "name": "closeEventRsvps",
+      "description": "Request to close a possibility to accept RSVPs",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "CloseEventRsvpsInput!"
+        }
+      ],
+      "type": "CloseEventRsvpsPayload!"
+    },
+    {
+      "name": "createEvent",
+      "description": "Request to create an event",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "CreateEventInput!"
+        }
+      ],
+      "type": "CreateEventPayload!"
+    },
+    {
+      "name": "createGroupDraft",
+      "description": "Request to create a new group draft",
+      "args": [
+        {
+          "name": "input",
+          "description": "Initial data for creating a draft of the group",
+          "defaultValue": null,
+          "type": "CreateGroupDraftInput!"
+        }
+      ],
+      "type": "CreateGroupDraftPayload!"
+    },
+    {
+      "name": "createGroupEventPhoto",
+      "description": "Create a photo in a group album",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "GroupEventPhotoCreateInput!"
+        }
+      ],
+      "type": "PhotoUploadWithUrlPayload!"
+    },
+    {
+      "name": "createVenue",
+      "description": null,
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "CreateVenueInput!"
+        }
+      ],
+      "type": "CreateVenuePayload!"
+    },
+    {
+      "name": "deleteEvent",
+      "description": "Request to delete event",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "DeleteEventInput!"
+        }
+      ],
+      "type": "DeleteEventPayload!"
+    },
+    {
+      "name": "deleteGroupDraft",
+      "description": null,
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "DeleteGroupDraftInput!"
+        }
+      ],
+      "type": "Boolean!"
+    },
+    {
+      "name": "editEvent",
+      "description": "Request to edit the event",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "EditEventInput!"
+        }
+      ],
+      "type": "EditEventPayload!"
+    },
+    {
+      "name": "openEventRsvps",
+      "description": "Request to open a possibility to accept RSVPs",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "OpenEventRsvpsInput!"
+        }
+      ],
+      "type": "OpenEventRsvpsPayload!"
+    },
+    {
+      "name": "publishEventDraft",
+      "description": "Request to publish the event draft",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "PublishEventDraftInput!"
+        }
+      ],
+      "type": "PublishEventDraftPayload!"
+    },
+    {
+      "name": "publishGroupDraft",
+      "description": "Request to publish the existing group draft",
+      "args": [
+        {
+          "name": "input",
+          "description": "Parameters of the group draft",
+          "defaultValue": null,
+          "type": "PublishGroupDraftInput!"
+        }
+      ],
+      "type": "PublishGroupDraftPayload!"
+    },
+    {
+      "name": "updateGroup",
+      "description": "Changes any field of a group using its id to identify it.\nReturns null if input.id does not match any group, otherwise returns the updated group fields",
+      "args": [
+        {
+          "name": "chapterId",
+          "description": "Group id",
+          "defaultValue": null,
+          "type": "ID!"
+        },
+        {
+          "name": "input",
+          "description": "Parameters that will be used for group updating",
+          "defaultValue": null,
+          "type": "GroupMutation!"
+        }
+      ],
+      "type": "Group"
+    },
+    {
+      "name": "updateGroupDraft",
+      "description": "Request to update the existing group draft",
+      "args": [
+        {
+          "name": "input",
+          "description": "Data for editiong a draft of the group",
+          "defaultValue": null,
+          "type": "UpdateGroupDraftInput!"
+        }
+      ],
+      "type": "UpdateGroupDraftPayload!"
+    },
+    {
+      "name": "updateGroupMembershipRole",
+      "description": "Allows a Group leader to group membership role for a given member",
+      "args": [
+        {
+          "name": "input",
+          "description": null,
+          "defaultValue": null,
+          "type": "UpdateGroupMembershipRoleInput!"
+        }
+      ],
+      "type": "UpdateGroupMembershipRolePayload!"
+    }
+  ]
+}

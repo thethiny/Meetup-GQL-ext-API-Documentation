@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "ProNetworkSuggestedEventsInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "filter",
+      "description": null,
+      "defaultValue": null,
+      "type": "ProNetworkSuggestedEventsFilter!"
+    },
+    {
+      "name": "first",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    }
+  ]
+}

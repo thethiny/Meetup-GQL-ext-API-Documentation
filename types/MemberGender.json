@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "MemberGender",
+  "description": null,
+  "values": [
+    {
+      "name": "FEMALE",
+      "description": null
+    },
+    {
+      "name": "MALE",
+      "description": null
+    },
+    {
+      "name": "NONE",
+      "description": null
+    },
+    {
+      "name": "NOT_CHECKED",
+      "description": null
+    },
+    {
+      "name": "OTHER",
+      "description": null
+    }
+  ]
+}

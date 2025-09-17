@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "PublishEventDraftPayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "errors",
+      "description": "Null if event has been successfuly published or array of errors if something gone wrong",
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "event",
+      "description": "The event with which the operation was carried out",
+      "args": [],
+      "type": "Event"
+    }
+  ]
+}
