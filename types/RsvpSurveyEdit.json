@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RsvpSurveyEdit",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "enabled",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean!"
+    },
+    {
+      "name": "survey",
+      "description": null,
+      "defaultValue": null,
+      "type": "RsvpSurvey"
+    }
+  ]
+}

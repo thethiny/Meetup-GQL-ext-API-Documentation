@@ -1,0 +1,37 @@
+{
+  "kind": "OBJECT",
+  "name": "Sponsor",
+  "description": "The sponsor",
+  "fields": [
+    {
+      "name": "description",
+      "description": "The sponsor description",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "id",
+      "description": "Id of the sponsor",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "logoPhoto",
+      "description": "The sponsor logo photo",
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "name",
+      "description": "The sponsor name",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "url",
+      "description": "The sponsor url",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

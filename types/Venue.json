@@ -1,0 +1,67 @@
+{
+  "kind": "OBJECT",
+  "name": "Venue",
+  "description": null,
+  "fields": [
+    {
+      "name": "address",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "country",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "id",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "lat",
+      "description": null,
+      "args": [],
+      "type": "Float"
+    },
+    {
+      "name": "lon",
+      "description": null,
+      "args": [],
+      "type": "Float"
+    },
+    {
+      "name": "name",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "postalCode",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "state",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "venueType",
+      "description": "the type of venue. may be \"online\" for a virtual venue or empty string at present for in-person events",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "TopicEdge",
+  "description": null,
+  "fields": [
+    {
+      "name": "cursor",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "node",
+      "description": null,
+      "args": [],
+      "type": "Topic!"
+    }
+  ]
+}

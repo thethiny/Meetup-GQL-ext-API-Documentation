@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "SpeakerDetails",
+  "description": null,
+  "fields": [
+    {
+      "name": "description",
+      "description": "Description of a speaker",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "name",
+      "description": "Name of a speaker",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "photo",
+      "description": "Speaker's PhotoInfo",
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "socialNetworks",
+      "description": "List of a speaker's social networks",
+      "args": [],
+      "type": "[SocialNetwork!]!"
+    }
+  ]
+}

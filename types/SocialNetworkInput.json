@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "SocialNetworkInput",
+  "description": "Social Network Input for group update",
+  "inputFields": [
+    {
+      "name": "identifier",
+      "description": "Social network identifier",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "service",
+      "description": "Social network service",
+      "defaultValue": null,
+      "type": "SocialNetworkService!"
+    },
+    {
+      "name": "status",
+      "description": "Social network status",
+      "defaultValue": null,
+      "type": "SocialNetworkStatus!"
+    }
+  ]
+}

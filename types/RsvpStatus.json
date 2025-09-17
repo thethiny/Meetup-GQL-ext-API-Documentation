@@ -1,0 +1,43 @@
+{
+  "kind": "ENUM",
+  "name": "RsvpStatus",
+  "description": "#########################\n search and filters\n#########################",
+  "values": [
+    {
+      "name": "ATTENDED",
+      "description": "An organizer confirmed attendance"
+    },
+    {
+      "name": "EXCUSED_ABSENCE",
+      "description": "A organizer confirmed absence"
+    },
+    {
+      "name": "HAVENT",
+      "description": "An unresponded to RSVP"
+    },
+    {
+      "name": "MAYBE",
+      "description": "No longer supported"
+    },
+    {
+      "name": "NO",
+      "description": "A member's response expressing they won't attend"
+    },
+    {
+      "name": "NO_SHOW",
+      "description": "An organized flagged RSVP for a member that was expected to attend but didn't"
+    },
+    {
+      "name": "WAITLIST",
+      "description": "A member's response expressing an intent to attend to an over capacity event"
+    },
+    {
+      "name": "YES",
+      "description": "A member's response expressing an intent to attend"
+    },
+    {
+      "name": "YES_PENDING_PAYMENT",
+      "description": "A member's expressed intent to go to an paid event before payment has been processed"
+    }
+  ]
+}

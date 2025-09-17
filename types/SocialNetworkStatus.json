@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "SocialNetworkStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ACTIVE",
+      "description": "Show"
+    },
+    {
+      "name": "HIDDEN",
+      "description": "Not show"
+    }
+  ]
+}

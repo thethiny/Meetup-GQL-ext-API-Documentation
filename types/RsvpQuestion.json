@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "RsvpQuestion",
+  "description": null,
+  "fields": [
+    {
+      "name": "questionId",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "text",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

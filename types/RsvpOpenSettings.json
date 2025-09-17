@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "RsvpOpenSettings",
+  "description": null,
+  "fields": [
+    {
+      "name": "rsvpCloseTime",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "rsvpOpenTime",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "rsvpsClosed",
+      "description": null,
+      "args": [],
+      "type": "Boolean"
+    }
+  ]
+}

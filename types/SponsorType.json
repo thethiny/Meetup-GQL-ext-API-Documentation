@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "SponsorType",
+  "description": null,
+  "values": [
+    {
+      "name": "GROUP",
+      "description": null
+    },
+    {
+      "name": "NETWORK",
+      "description": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "OBJECT",
+  "name": "TopicCategory",
+  "description": null,
+  "fields": [
+    {
+      "name": "color",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "defaultTopic",
+      "description": "The default topic for the topic category",
+      "args": [],
+      "type": "Topic!"
+    },
+    {
+      "name": "id",
+      "description": "Unique id for the topic category",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "imageUrl",
+      "description": "A representative image url for the topic category",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "name",
+      "description": "Name of topic category translated based on requested language",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "topics",
+      "description": null,
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "TopicsConnection!"
+    },
+    {
+      "name": "urlkey",
+      "description": "UrlKey used in urls",
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

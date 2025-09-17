@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RsvpSearchFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "query",
+      "description": "The name of the member",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "status",
+      "description": "An optional list of RSVP statuses to preform secondary filtering on",
+      "defaultValue": null,
+      "type": "[RsvpStatus]"
+    },
+    {
+      "name": "venueId",
+      "description": "An optional venueId to perform filtering by attending in-person or online",
+      "defaultValue": null,
+      "type": "ID"
+    }
+  ]
+}

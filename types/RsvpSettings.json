@@ -1,0 +1,43 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RsvpSettings",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "guestLimit",
+      "description": "Positive integer representing the number of guests that members may include in their RSVP, 0 inclusive. This defaults to 2.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "rsvpCloseDuration",
+      "description": "Duration, Should be according to the ISO 8601 duration specified format\n  \nTo remove the RSVP close time from an existing event, set rsvpCloseDuration to PT0S",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "rsvpCloseTime",
+      "description": "Field representing the time before which members\nwill be allowed to RSVP to the event in milliseconds since the epoch.\nThis can only be set if there is a start time for the event.\nThis defaults to no RSVP close time restriction.\n  \nTo remove the RSVP close time from an existing event, set rsvpCloseDuration to PT0S",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "rsvpLimit",
+      "description": "Positive integer representing total number of RSVP slots available for the event.\nWhen undefined or defined as 0, there will be no set limit.\n  \nTo remove the RSVP limit from an existing event, provide a value of 0",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "rsvpOpenDuration",
+      "description": "Duration, Should be according to the ISO 8601 duration specified format\n  \nTo remove the RSVP open time from an existing event, set rsvpOpenDuration to PT0S",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "rsvpOpenTime",
+      "description": "Field representing the time after which members\nwill be allowed to RSVP to the event in milliseconds since the epoch.\nThis can only be set if there is a start time for the event.\nThis defaults to no RSVP open time restriction.\n  \nTo remove the RSVP open time from an existing event, set rsvpOpenDuration to PT0S",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

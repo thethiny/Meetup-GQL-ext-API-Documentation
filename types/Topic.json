@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "Topic",
+  "description": null,
+  "fields": [
+    {
+      "name": "description",
+      "description": "Description of topic. Supports localization when Accept-Language HTTP header is provided",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "id",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "name",
+      "description": "Name of topic. Supports localization when Accept-Language HTTP header is provided",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "urlkey",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RsvpFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "endDate",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventStatus",
+      "description": "The status of the Event associated with the RSVP. defaults to all RsvpEventStatuses",
+      "defaultValue": null,
+      "type": "[RsvpEventStatus]"
+    },
+    {
+      "name": "eventType",
+      "description": null,
+      "defaultValue": null,
+      "type": "[EventType]"
+    },
+    {
+      "name": "groupId",
+      "description": "An optional group id to filter on",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "lat",
+      "description": null,
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "lon",
+      "description": null,
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "onlyHosts",
+      "description": "Optional indicator to only include rsvps associated with hosts.\ndefaults to false.",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "onlyWithGuests",
+      "description": "Optional indicator to only include rsvps for members bringing guests.\ndefaults to false.",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "potentialMemberConnections",
+      "description": "Optional indicator to only include rsvps for members who are\npotential member connection candidates",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "radius",
+      "description": null,
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "rsvpStatus",
+      "description": "The status of the RSVP. defaults to YES and ATTENDED.\nA filter containing HAVENT will only returned HAVENT responses, irrespective to other RsvpStatus included.",
+      "defaultValue": null,
+      "type": "[RsvpStatus]"
+    },
+    {
+      "name": "startDate",
+      "description": "Currently only supported by Member.Rsvps() query\nNOTE: This will only be used if no cursor is provided.\n      It is intended to be used on the first request.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "venueId",
+      "description": "An optional venueId to perform filtering by attending in-person or online",
+      "defaultValue": null,
+      "type": "ID"
+    }
+  ]
+}

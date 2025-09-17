@@ -1,0 +1,71 @@
+{
+  "kind": "ENUM",
+  "name": "RsvpState",
+  "description": null,
+  "values": [
+    {
+      "name": "CANCELLED",
+      "description": null
+    },
+    {
+      "name": "CLOSED",
+      "description": null
+    },
+    {
+      "name": "DUES",
+      "description": null
+    },
+    {
+      "name": "EXTERNAL_YES",
+      "description": null
+    },
+    {
+      "name": "FULL",
+      "description": null
+    },
+    {
+      "name": "JOIN_APPROVAL",
+      "description": null
+    },
+    {
+      "name": "JOIN_DUES_APPROVAL",
+      "description": null
+    },
+    {
+      "name": "JOIN_OPEN",
+      "description": null
+    },
+    {
+      "name": "NO",
+      "description": null
+    },
+    {
+      "name": "NONE",
+      "description": null
+    },
+    {
+      "name": "NOT_OPEN_YET",
+      "description": null
+    },
+    {
+      "name": "PAST",
+      "description": null
+    },
+    {
+      "name": "REQUESTED",
+      "description": null
+    },
+    {
+      "name": "RSVP",
+      "description": null
+    },
+    {
+      "name": "WAITLIST",
+      "description": null
+    },
+    {
+      "name": "YES",
+      "description": null
+    }
+  ]
+}

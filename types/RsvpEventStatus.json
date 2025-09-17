@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "RsvpEventStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "CANCELLED",
+      "description": null
+    },
+    {
+      "name": "PAST",
+      "description": null
+    },
+    {
+      "name": "PENDING",
+      "description": null
+    },
+    {
+      "name": "PROPOSED",
+      "description": null
+    },
+    {
+      "name": "UPCOMING",
+      "description": null
+    }
+  ]
+}

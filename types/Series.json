@@ -1,0 +1,37 @@
+{
+  "kind": "OBJECT",
+  "name": "Series",
+  "description": "Properties of an event series that recurs over a period of time",
+  "fields": [
+    {
+      "name": "description",
+      "description": "A human-readable description of the series",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "endDate",
+      "description": "An ISO date in the form `YYYY-MM-DD` or `2011-12-03`",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "id",
+      "description": "id of the series",
+      "args": [],
+      "type": "ID"
+    },
+    {
+      "name": "monthlyRecurrence",
+      "description": "Returned for events that are part of a monthly recurring series of events",
+      "args": [],
+      "type": "MonthlyRecurrenceInfo"
+    },
+    {
+      "name": "weeklyRecurrence",
+      "description": "Returned for events that are part of a weekly recurring series of events",
+      "args": [],
+      "type": "WeeklyRecurrenceInfo"
+    }
+  ]
+}

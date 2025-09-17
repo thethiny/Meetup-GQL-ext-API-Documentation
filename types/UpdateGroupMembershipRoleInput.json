@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "UpdateGroupMembershipRoleInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "groupId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    },
+    {
+      "name": "memberId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    },
+    {
+      "name": "role",
+      "description": null,
+      "defaultValue": null,
+      "type": "Role!"
+    }
+  ]
+}

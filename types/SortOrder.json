@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "SortOrder",
+  "description": null,
+  "values": [
+    {
+      "name": "ASC",
+      "description": null
+    },
+    {
+      "name": "DESC",
+      "description": null
+    }
+  ]
+}

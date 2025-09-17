@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "SponsorsFilter",
+  "description": "Set of fields to filter sponsors",
+  "inputFields": [
+    {
+      "name": "type",
+      "description": null,
+      "defaultValue": null,
+      "type": "SponsorType"
+    }
+  ]
+}

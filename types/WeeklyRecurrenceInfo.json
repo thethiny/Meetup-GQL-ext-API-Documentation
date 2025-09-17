@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "WeeklyRecurrenceInfo",
+  "description": null,
+  "fields": [
+    {
+      "name": "weeklyDaysOfWeek",
+      "description": "List days of the week this event will be hosted on",
+      "args": [],
+      "type": "[DayOfWeek!]!"
+    },
+    {
+      "name": "weeklyInterval",
+      "description": "Integer number of weeks between each recurrence",
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

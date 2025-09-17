@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "WaitlistMode",
+  "description": "Waitlist handling when RSVP limit is reached",
+  "values": [
+    {
+      "name": "AUTO",
+      "description": "If a spot opens up, the next member in line claims it"
+    },
+    {
+      "name": "OFF",
+      "description": "Waitlists are turned off only in cases where payments are required and there is an rsvp limit"
+    }
+  ]
+}

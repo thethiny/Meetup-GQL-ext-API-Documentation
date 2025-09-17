@@ -1,0 +1,31 @@
+{
+  "kind": "ENUM",
+  "name": "RsvpSortField",
+  "description": null,
+  "values": [
+    {
+      "name": "DATETIME",
+      "description": "In the case of member.rsvps, the normalized time of the event\nIn the case of event.rsvps, the rsvp's updated time"
+    },
+    {
+      "name": "LOCAL_TIME",
+      "description": "In the case of member.rsvps, the local time of the event according to the hosting groups timezone\nIn the case of event.rsvps the same as DATETIME"
+    },
+    {
+      "name": "NAME",
+      "description": "The name of member rsvping"
+    },
+    {
+      "name": "RELEVANCE",
+      "description": "What's relevant to most members, you typically want pair this with SortOrder.DESC"
+    },
+    {
+      "name": "RSVP_ID",
+      "description": "The unique id associated with the rsvp"
+    },
+    {
+      "name": "SHARED_GROUPS",
+      "description": "Number of shared groups in common with a given member, you typically want pair this with SortOrder.DESC"
+    }
+  ]
+}

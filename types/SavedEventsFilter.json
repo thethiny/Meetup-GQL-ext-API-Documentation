@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "SavedEventsFilter",
+  "description": null,
+  "values": [
+    {
+      "name": "ALL",
+      "description": null
+    },
+    {
+      "name": "FUTURE",
+      "description": null
+    },
+    {
+      "name": "PAST",
+      "description": null
+    }
+  ]
+}

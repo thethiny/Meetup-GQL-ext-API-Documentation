@@ -1,0 +1,31 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RsvpSort",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "hostsFirst",
+      "description": "Order placing hosts first, followed by the provided or default sorting",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "memberConnectionsFirst",
+      "description": "Order placing pending member connections awaiting the authenticated member first, if they are a subscriber, followed by the provided or default sorting",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "sortField",
+      "description": "The field to sort on. Defaults to RsvpSortField.RSVP_ID",
+      "defaultValue": null,
+      "type": "RsvpSortField"
+    },
+    {
+      "name": "sortOrder",
+      "description": "The direction of sort. Defaults to SortOrder.ASC",
+      "defaultValue": null,
+      "type": "SortOrder"
+    }
+  ]
+}

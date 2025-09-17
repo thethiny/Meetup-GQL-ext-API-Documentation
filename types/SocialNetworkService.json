@@ -1,0 +1,39 @@
+{
+  "kind": "ENUM",
+  "name": "SocialNetworkService",
+  "description": null,
+  "values": [
+    {
+      "name": "FACEBOOK",
+      "description": null
+    },
+    {
+      "name": "FLICKR",
+      "description": null
+    },
+    {
+      "name": "INSTAGRAM",
+      "description": null
+    },
+    {
+      "name": "LINKEDIN",
+      "description": null
+    },
+    {
+      "name": "OTHER",
+      "description": null
+    },
+    {
+      "name": "TIKTOK",
+      "description": null
+    },
+    {
+      "name": "TUMBLR",
+      "description": null
+    },
+    {
+      "name": "TWITTER",
+      "description": null
+    }
+  ]
+}

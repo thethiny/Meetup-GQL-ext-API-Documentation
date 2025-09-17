@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "SocialNetwork",
+  "description": null,
+  "fields": [
+    {
+      "name": "identifier",
+      "description": "Social network identifier",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "service",
+      "description": "Social network service",
+      "args": [],
+      "type": "SocialNetworkService!"
+    },
+    {
+      "name": "url",
+      "description": "Social network url",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

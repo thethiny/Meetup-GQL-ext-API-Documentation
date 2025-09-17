@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "SpeakerSocialNetworkInputNode",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "identifier",
+      "description": "The actual identifier of the social network",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "service",
+      "description": "Service of the social network",
+      "defaultValue": null,
+      "type": "SocialNetworkService!"
+    }
+  ]
+}

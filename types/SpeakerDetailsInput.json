@@ -1,0 +1,31 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "SpeakerDetailsInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "description",
+      "description": "Description of a speaker",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "name",
+      "description": "Name of a speaker",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "photoId",
+      "description": "Positive integer representing a numeric identifier for a photo, which must be one associated with this group. When undefined or 0, no photo is set.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "socialNetworks",
+      "description": "List of a speaker's social networks",
+      "defaultValue": null,
+      "type": "[SpeakerSocialNetworkInputNode!]"
+    }
+  ]
+}

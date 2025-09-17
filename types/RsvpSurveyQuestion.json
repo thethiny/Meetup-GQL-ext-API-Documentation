@@ -1,0 +1,31 @@
+{
+  "kind": "ENUM",
+  "name": "RsvpSurveyQuestion",
+  "description": null,
+  "values": [
+    {
+      "name": "COMPANY",
+      "description": null
+    },
+    {
+      "name": "FIRST_NAME",
+      "description": null
+    },
+    {
+      "name": "LAST_NAME",
+      "description": null
+    },
+    {
+      "name": "PHONE",
+      "description": null
+    },
+    {
+      "name": "ROLE",
+      "description": null
+    },
+    {
+      "name": "TOPIC",
+      "description": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "RsvpSurvey",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "questions",
+      "description": null,
+      "defaultValue": null,
+      "type": "[RsvpSurveyQuestion!]!"
+    },
+    {
+      "name": "rsvpQuestions",
+      "description": null,
+      "defaultValue": null,
+      "type": "[QuestionInput!]"
+    }
+  ]
+}

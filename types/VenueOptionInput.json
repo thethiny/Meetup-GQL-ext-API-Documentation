@@ -1,0 +1,37 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "VenueOptionInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "feeOption",
+      "description": "Representing attributes for paid events.\nUsed only for the online venue of the hybrid event.\nPhysical venue part is populated using existing field under event type.",
+      "defaultValue": null,
+      "type": "EventFeeOption"
+    },
+    {
+      "name": "guestLimit",
+      "description": "Positive integer representing the number of guests that members\nmay include in their RSVP, 0 inclusive. This defaults to 2.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "howToFindUs",
+      "description": "String setting the description for the location of the host(s) at the event venue.\nFor online events this field is used for the event's url.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "rsvpLimit",
+      "description": "Positive integer representing total number of RSVP slots available for this particular venue.\nWhen undefined or defined as 0, there will be no set limit.\n  \nTo remove the RSVP limit from an existing event venue, provide a value of 0.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "venueId",
+      "description": "Id of the venue which should have the options below.",
+      "defaultValue": null,
+      "type": "String!"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "RsvpEdge",
+  "description": null,
+  "fields": [
+    {
+      "name": "cursor",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "node",
+      "description": null,
+      "args": [],
+      "type": "Rsvp!"
+    }
+  ]
+}
