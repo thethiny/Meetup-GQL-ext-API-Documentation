@@ -1,0 +1,6 @@
+{
+  "name": "self",
+  "description": "The currently authenticated member",
+  "args": [],
+  "returnType": "Member"
+}

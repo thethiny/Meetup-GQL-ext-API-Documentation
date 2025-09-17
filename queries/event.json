@@ -1,0 +1,13 @@
+{
+  "name": "event",
+  "description": "Returns an event according to requested id",
+  "args": [
+    {
+      "name": "id",
+      "description": "Alphanumeric identifier for the event",
+      "defaultValue": null,
+      "type": "ID!"
+    }
+  ],
+  "returnType": "Event"
+}

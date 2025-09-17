@@ -1,0 +1,19 @@
+{
+  "name": "proNetwork",
+  "description": "Query a Pro Network by either id or urlname",
+  "args": [
+    {
+      "name": "id",
+      "description": "Pro Network Id",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "urlname",
+      "description": "Pro Network Urlname",
+      "defaultValue": null,
+      "type": "ID"
+    }
+  ],
+  "returnType": "ProNetwork"
+}

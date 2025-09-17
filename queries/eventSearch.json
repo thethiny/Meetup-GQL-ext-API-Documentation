@@ -1,0 +1,37 @@
+{
+  "name": "eventSearch",
+  "description": "Search events using keywords and a location.",
+  "args": [
+    {
+      "name": "after",
+      "description": "The start pointer for search results. For pagination. Default is base64 of `0`.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "dataConfiguration",
+      "description": "String propagated to the data api to allow customizing the clients experience",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "filter",
+      "description": "Filter to minimize the list of results",
+      "defaultValue": null,
+      "type": "EventSearchFilter!"
+    },
+    {
+      "name": "first",
+      "description": "Number of results to get.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "sort",
+      "description": "Sorts results",
+      "defaultValue": null,
+      "type": "KeywordSort"
+    }
+  ],
+  "returnType": "EventSearchConnection!"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "suggestTopics",
+  "description": "Suggest topics given a search term",
+  "args": [
+    {
+      "name": "after",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "excludeMemberTopics",
+      "description": "Indicate if topics the member already added to own topics should be omitted.",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "first",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "query",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    }
+  ],
+  "returnType": "TopicsConnection!"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "groupByUrlname",
+  "description": "Fetch a single group by its urlname",
+  "args": [
+    {
+      "name": "urlname",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    }
+  ],
+  "returnType": "Group"
+}

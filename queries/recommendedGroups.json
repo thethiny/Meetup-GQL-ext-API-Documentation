@@ -1,0 +1,31 @@
+{
+  "name": "recommendedGroups",
+  "description": null,
+  "args": [
+    {
+      "name": "after",
+      "description": "The start pointer for search results. Default is base64 of `0`.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "filter",
+      "description": "Filter to minimize the list of results",
+      "defaultValue": null,
+      "type": "RecommendedGroupsFilter!"
+    },
+    {
+      "name": "first",
+      "description": "Number of results to get.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "ignoreNewGroups",
+      "description": "do not show new groups",
+      "defaultValue": null,
+      "type": "Boolean"
+    }
+  ],
+  "returnType": "RecommendedGroupsConnection!"
+}

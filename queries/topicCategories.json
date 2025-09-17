@@ -1,0 +1,13 @@
+{
+  "name": "topicCategories",
+  "description": "List top level topic categories",
+  "args": [
+    {
+      "name": "includeNewGroups",
+      "description": "indicates whether a special 'New Groups' category should be included in the response.",
+      "defaultValue": null,
+      "type": "Boolean"
+    }
+  ],
+  "returnType": "TopicCategoryConnection"
+}

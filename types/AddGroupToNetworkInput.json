@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "AddGroupToNetworkInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "groupId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    },
+    {
+      "name": "networkId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    }
+  ]
+}

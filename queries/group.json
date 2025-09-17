@@ -1,0 +1,13 @@
+{
+  "name": "group",
+  "description": "Fetch a single group by its id",
+  "args": [
+    {
+      "name": "id",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    }
+  ],
+  "returnType": "Group"
+}
