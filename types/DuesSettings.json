@@ -1,0 +1,49 @@
+{
+  "kind": "OBJECT",
+  "name": "DuesSettings",
+  "description": null,
+  "fields": [
+    {
+      "name": "amount",
+      "description": "Fee amount returned in cents",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "currency",
+      "description": null,
+      "args": [],
+      "type": "Currency"
+    },
+    {
+      "name": "feeDescription",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "interval",
+      "description": null,
+      "args": [],
+      "type": "DuesInterval"
+    },
+    {
+      "name": "paymentType",
+      "description": null,
+      "args": [],
+      "type": "DuesPaymentType!"
+    },
+    {
+      "name": "reasons",
+      "description": null,
+      "args": [],
+      "type": "GroupDuesReasons!"
+    },
+    {
+      "name": "trialPeriodDays",
+      "description": null,
+      "args": [],
+      "type": "Int"
+    }
+  ]
+}

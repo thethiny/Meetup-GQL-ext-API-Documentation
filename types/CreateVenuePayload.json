@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "CreateVenuePayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "didYouMean",
+      "description": "In the event a duplicate venue in the system is detected, this list will provide a list of suggestions you might have been looking for",
+      "args": [],
+      "type": "[Venue!]"
+    },
+    {
+      "name": "errors",
+      "description": null,
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "venue",
+      "description": null,
+      "args": [],
+      "type": "Venue"
+    }
+  ]
+}

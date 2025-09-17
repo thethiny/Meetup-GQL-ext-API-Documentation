@@ -1,0 +1,49 @@
+{
+  "kind": "OBJECT",
+  "name": "MemberAnalytics",
+  "description": null,
+  "fields": [
+    {
+      "name": "eventsAttended",
+      "description": "The number of attended events",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "groupsCount",
+      "description": "Count of groups where user is actual member",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "isOrganizer",
+      "description": "Whether a User is organizer",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "joinTime",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "lastAccessTime",
+      "description": "The time when the last activity occured",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "memberships",
+      "description": "Members groups inside pro network",
+      "args": [],
+      "type": "[Membership!]"
+    },
+    {
+      "name": "role",
+      "description": "Highest member role across all groups within Pro network",
+      "args": [],
+      "type": "Role"
+    }
+  ]
+}

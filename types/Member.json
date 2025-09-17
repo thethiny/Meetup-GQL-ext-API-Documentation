@@ -1,0 +1,367 @@
+{
+  "kind": "OBJECT",
+  "name": "Member",
+  "description": "A registered member on Meetup",
+  "fields": [
+    {
+      "name": "adminProNetworks",
+      "description": null,
+      "args": [],
+      "type": "[ProNetwork!]!"
+    },
+    {
+      "name": "bio",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "birthday",
+      "description": null,
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "country",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "email",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "gender",
+      "description": null,
+      "args": [],
+      "type": "MemberGender"
+    },
+    {
+      "name": "highestCurrentRole",
+      "description": "Highest current role of a member across all groups",
+      "args": [],
+      "type": "Role"
+    },
+    {
+      "name": "id",
+      "description": "Unique identifier for member",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "isLeader",
+      "description": "Returns true if user is an Organizer, Co-Organizer, Assistant Organizer, or Event Organizer in any group",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isMemberPlusSubscriber",
+      "description": "Returns true if member has an active member subscription",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isOrganizer",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isProOrganizer",
+      "description": "Is on the leadership team of a pro group",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isProPrimaryOrganizer",
+      "description": "Is a primary organizer of a pro group",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "lat",
+      "description": null,
+      "args": [],
+      "type": "Float"
+    },
+    {
+      "name": "lon",
+      "description": null,
+      "args": [],
+      "type": "Float"
+    },
+    {
+      "name": "memberEvents",
+      "description": "Events this member RSVP'd do",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "eventStatus",
+          "description": "Filter events by their status. Defaults to ACTIVE",
+          "defaultValue": null,
+          "type": "[EventStatus]"
+        },
+        {
+          "name": "eventType",
+          "description": null,
+          "defaultValue": null,
+          "type": "[EventType]"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int!"
+        },
+        {
+          "name": "isHosting",
+          "description": "When true, returns only the events the member is actively hosting",
+          "defaultValue": null,
+          "type": "Boolean"
+        },
+        {
+          "name": "lat",
+          "description": null,
+          "defaultValue": null,
+          "type": "Float"
+        },
+        {
+          "name": "lon",
+          "description": null,
+          "defaultValue": null,
+          "type": "Float"
+        },
+        {
+          "name": "membershipsFilter",
+          "description": null,
+          "defaultValue": null,
+          "type": "MembershipsFilter"
+        },
+        {
+          "name": "radius",
+          "description": null,
+          "defaultValue": null,
+          "type": "Float"
+        },
+        {
+          "name": "sort",
+          "description": "Member events sorting.",
+          "defaultValue": null,
+          "type": "MemberEventSort"
+        },
+        {
+          "name": "startDate",
+          "description": "Get all events after this start date\nNOTE: This will only be used if no cursor is provided.\nIt is intended to be used on the first request.",
+          "defaultValue": null,
+          "type": "String"
+        }
+      ],
+      "type": "MemberEventConnection!"
+    },
+    {
+      "name": "memberPhoto",
+      "description": null,
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "memberUrl",
+      "description": "Represents a link to the member on meetup.com",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "memberships",
+      "description": "sort attribute:\nthe sortField/sortOrder only support sorting based on the group's upcoming events",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "MembershipsFilter"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": null,
+          "defaultValue": null,
+          "type": "MembershipSort"
+        }
+      ],
+      "type": "MemberGroupConnection!"
+    },
+    {
+      "name": "name",
+      "description": "Display name for member",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "notifications",
+      "description": "Resolves a connection for this Member's list of Notifications",
+      "args": [
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "MemberNotificationsFilter"
+        }
+      ],
+      "type": "MemberNotificationConnection"
+    },
+    {
+      "name": "organizedGroupCount",
+      "description": "A number of groups where member is a primary organizer\nwill return 0 if visitor does not have privs to view this field",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "preferredLocale",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "reasonsForJoining",
+      "description": "A list of reasons member has joined Meetup",
+      "args": [],
+      "type": "[ReasonForJoining!]"
+    },
+    {
+      "name": "recommendedTopics",
+      "description": "A list of recommended topics to add",
+      "args": [
+        {
+          "name": "categoryIds",
+          "description": null,
+          "defaultValue": null,
+          "type": "[ID!]"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "TopicsConnection!"
+    },
+    {
+      "name": "rsvps",
+      "description": null,
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "RsvpFilter"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": null,
+          "defaultValue": null,
+          "type": "RsvpSort"
+        }
+      ],
+      "type": "MemberRsvpConnection!"
+    },
+    {
+      "name": "savedEvents",
+      "description": "Events this member saved",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int!"
+        },
+        {
+          "name": "sort",
+          "description": null,
+          "defaultValue": null,
+          "type": "SortOrder"
+        }
+      ],
+      "type": "MemberEventConnection!"
+    },
+    {
+      "name": "selectedTimezone",
+      "description": "selectedTimezone is manually selected by the user whereas\ntimezone below is automatically set.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "startDate",
+      "description": "Represents DateTime when member was created",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "state",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "description": null,
+      "args": [],
+      "type": "MemberStatus!"
+    },
+    {
+      "name": "username",
+      "description": null,
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "zip",
+      "description": null,
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

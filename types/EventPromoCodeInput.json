@@ -1,0 +1,31 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "EventPromoCodeInput",
+  "description": "A promo code that a member can redeem to get a lower ticket price.",
+  "inputFields": [
+    {
+      "name": "amount",
+      "description": "Event ticket price in currency units (e.g. USD) for this promotion.",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "dateRange",
+      "description": "Date range during which this promotion is active.\nIf omitted, the promotion comes into effect immediately and lasts until the event ends.\nDate range cannot be set on promotions for recurring events.",
+      "defaultValue": null,
+      "type": "PromoCodeDateRangeInput"
+    },
+    {
+      "name": "promoCode",
+      "description": "Promo code that a member needs to submit to activate this promotion.",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "quantity",
+      "description": "Maximum number of tickets that can be purchased with this promotion.\nIf omitted, no limit is applied.",
+      "defaultValue": null,
+      "type": "Int"
+    }
+  ]
+}

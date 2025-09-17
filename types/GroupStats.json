@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupStats",
+  "description": null,
+  "fields": [
+    {
+      "name": "eventRatings",
+      "description": null,
+      "args": [],
+      "type": "GroupStatsEventRatings!"
+    },
+    {
+      "name": "memberCounts",
+      "description": null,
+      "args": [],
+      "type": "GroupMemberCounts!"
+    }
+  ]
+}

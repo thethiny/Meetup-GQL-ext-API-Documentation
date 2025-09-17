@@ -1,0 +1,49 @@
+{
+  "kind": "OBJECT",
+  "name": "EventFeeSettings",
+  "description": null,
+  "fields": [
+    {
+      "name": "accepts",
+      "description": "Acceptable methods of payment",
+      "args": [],
+      "type": "PaymentMethod!"
+    },
+    {
+      "name": "amount",
+      "description": "Amount of the fee",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "currency",
+      "description": "Currency accepted for fee",
+      "args": [],
+      "type": "EventFeeCurrency!"
+    },
+    {
+      "name": "earlyBirdDiscount",
+      "description": "Optional discounted price for early RSVPers.",
+      "args": [],
+      "type": "EarlyBirdDiscount"
+    },
+    {
+      "name": "hasPromoCodes",
+      "description": "Return true if paid event and has active promo codes, false otherwise",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "refundPolicy",
+      "description": "Organizer-defined terms for refunds. If this is defined, you must provide the authenticated member a way to access this information before they can RSVP.\nThey will need to agree to these terms before they RSVP\nSee the following help article for more information on Meetup refund payment policies https://help.meetup.com/hc/en-us/articles/360004065471-Payment-Policies",
+      "args": [],
+      "type": "RefundPolicy"
+    },
+    {
+      "name": "required",
+      "description": "Indicates if a fee is required to RSVP",
+      "args": [],
+      "type": "Boolean!"
+    }
+  ]
+}

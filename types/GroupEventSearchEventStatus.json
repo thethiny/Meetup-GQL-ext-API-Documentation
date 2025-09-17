@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "GroupEventSearchEventStatus",
+  "description": "Status of event for Group Event search",
+  "values": [
+    {
+      "name": "DRAFT",
+      "description": null
+    },
+    {
+      "name": "PAST",
+      "description": null
+    },
+    {
+      "name": "UPCOMING",
+      "description": null
+    }
+  ]
+}

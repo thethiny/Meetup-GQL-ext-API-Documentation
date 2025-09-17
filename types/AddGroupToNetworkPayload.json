@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "AddGroupToNetworkPayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "errors",
+      "description": null,
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "group",
+      "description": null,
+      "args": [],
+      "type": "Group"
+    },
+    {
+      "name": "network",
+      "description": null,
+      "args": [],
+      "type": "ProNetwork"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "EarlyBirdDiscountInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "amount",
+      "description": "Amount in dollars",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "daysBefore",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int!"
+    },
+    {
+      "name": "maximumQuantity",
+      "description": null,
+      "defaultValue": null,
+      "type": "Int"
+    }
+  ]
+}

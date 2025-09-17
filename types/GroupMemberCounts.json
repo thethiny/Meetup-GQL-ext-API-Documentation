@@ -1,0 +1,37 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupMemberCounts",
+  "description": null,
+  "fields": [
+    {
+      "name": "all",
+      "description": "total number of members",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "banned",
+      "description": "total banned members",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "leadership",
+      "description": "total number of members on leadership team",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "pending",
+      "description": "total pending members",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "pendingPayment",
+      "description": "total number of members pending payment",
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "CreateEventPayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "errors",
+      "description": "Null if creation was successful or array of errors if something gone wrong",
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "event",
+      "description": "The created draft of the event",
+      "args": [],
+      "type": "Event"
+    }
+  ]
+}

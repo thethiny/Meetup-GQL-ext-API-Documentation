@@ -1,0 +1,73 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupAnalytics",
+  "description": "GroupAnalytics data, available for pro only",
+  "fields": [
+    {
+      "name": "averageAge",
+      "description": "Average age of the group members",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "averageRsvpsPerEvent",
+      "description": "Average number of RSVPs per event",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "genderMembershipRatios",
+      "description": "Proportion of members in the group by gender",
+      "args": [],
+      "type": "GroupGenderMembershipRatios!"
+    },
+    {
+      "name": "lastEventDate",
+      "description": "Date of the last meetup event,\nnot present if the group never had a meetup event",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "nextEventDate",
+      "description": "Date of the next meetup event,\nnot present if the group doesn't have next meetup event",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "tieStatus",
+      "description": "Pro Network Tie Status",
+      "args": [],
+      "type": "ProNetworkTieStatus!"
+    },
+    {
+      "name": "totalMembers",
+      "description": "Number of the group members",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalPastEvents",
+      "description": "Number of the past meetup events",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalPastRsvps",
+      "description": "Number of total RSVPs in the past",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalRepeatRsvpers",
+      "description": "Number of members who RSVPed to a past event and RSVPs to a new event",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalUpcomingEvents",
+      "description": "Number of the upcoming meetup events",
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

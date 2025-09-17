@@ -1,0 +1,43 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "CreateGroupDraftInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "customMembersLabel",
+      "description": "What members of the group will be called. Can be at most 32 characters",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "description": "Summary of what the Meetup group is about in simple HTML format",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "location",
+      "description": "Group Location",
+      "defaultValue": null,
+      "type": "GroupLocation"
+    },
+    {
+      "name": "name",
+      "description": "Display name of the group. Can be at most 60 characters",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "topics",
+      "description": "Sets the specified topics to the group overwriting any existing topics. Topics are identified by ids and can be obtained from find topics query",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "urlname",
+      "description": "Name used for the group's web address on meetup.com. Must be between 6 and 60 characters",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

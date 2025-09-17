@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "EventFundraisingInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "enabled",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean!"
+    }
+  ]
+}

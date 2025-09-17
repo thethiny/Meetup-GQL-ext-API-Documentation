@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "CityLocation",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "borough",
+      "description": "Borough/Town/District name",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "neighborhood",
+      "description": "Neighborhood name",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

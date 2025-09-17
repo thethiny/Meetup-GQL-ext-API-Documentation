@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupQuestionInput",
+  "description": "Questions to be answered by new members when join the group",
+  "inputFields": [
+    {
+      "name": "id",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID!"
+    },
+    {
+      "name": "question",
+      "description": "Question",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "sort",
+      "description": "The position that ocupate in the list presented to the new member",
+      "defaultValue": null,
+      "type": "Int!"
+    }
+  ]
+}

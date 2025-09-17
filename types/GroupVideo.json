@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupVideo",
+  "description": "Group featured video.",
+  "fields": [
+    {
+      "name": "provider",
+      "description": "Video provider (hosting service).",
+      "args": [],
+      "type": "GroupVideoProvider!"
+    },
+    {
+      "name": "url",
+      "description": "Video URL.",
+      "args": [],
+      "type": "String!"
+    }
+  ]
+}

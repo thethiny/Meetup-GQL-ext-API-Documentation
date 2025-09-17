@@ -1,0 +1,39 @@
+{
+  "kind": "ENUM",
+  "name": "GroupStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ABANDONED",
+      "description": "Draft group"
+    },
+    {
+      "name": "BLOCKED",
+      "description": "Manually changed via platform administration"
+    },
+    {
+      "name": "DEAD",
+      "description": "Had a status of FROZEN for 15 days"
+    },
+    {
+      "name": "FAILED",
+      "description": null
+    },
+    {
+      "name": "FROZEN",
+      "description": "Does not have an active organizer"
+    },
+    {
+      "name": "GRACE",
+      "description": "Has a organizer with a lapsed subscription.\nWill change to FROZEN after 15 days"
+    },
+    {
+      "name": "ORG_CLOSED",
+      "description": null
+    },
+    {
+      "name": "PAID",
+      "description": "Has an organizer with an active subscription"
+    }
+  ]
+}

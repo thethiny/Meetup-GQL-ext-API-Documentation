@@ -1,0 +1,6 @@
+{
+  "kind": "SCALAR",
+  "name": "Date",
+  "description": "A custom scalar that handles dates",
+  "scalar": true
+}

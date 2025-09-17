@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "GroupPrivacy",
+  "description": null,
+  "values": [
+    {
+      "name": "PRIVATE",
+      "description": null
+    },
+    {
+      "name": "PUBLIC",
+      "description": null
+    }
+  ]
+}

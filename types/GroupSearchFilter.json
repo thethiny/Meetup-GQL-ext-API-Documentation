@@ -1,0 +1,97 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupSearchFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "categoryId",
+      "description": "ID of the event category",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "country",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "frozenOnly",
+      "description": "Whether to look for groups with FROZEN status only",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "lat",
+      "description": "Latitude of the location of a group",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "lon",
+      "description": "Longitude if the location of a group",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "prioritizeRsvps",
+      "description": "Prioritize groups with recent RSVP",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "query",
+      "description": "A pattern string for searching by occurrence in a group name",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "radius",
+      "description": "Get groups within a Radius from lat/lon. Default is 25.",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "state",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "timeDecayOffset",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "timeDecayScale",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "topicCategoryId",
+      "description": "The id of topicCategory [from topic taxonomy]. Used if categoryId is empty.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "useTimeOfDayEmbedding",
+      "description": "Use time of day embedding",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "zip",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

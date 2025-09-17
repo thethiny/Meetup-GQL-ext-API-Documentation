@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "EventHost",
+  "description": null,
+  "fields": [
+    {
+      "name": "member",
+      "description": null,
+      "args": [],
+      "type": "Member"
+    },
+    {
+      "name": "memberPhoto",
+      "description": "Group member photo",
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "name",
+      "description": null,
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

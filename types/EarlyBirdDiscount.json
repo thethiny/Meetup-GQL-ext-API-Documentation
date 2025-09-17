@@ -1,0 +1,43 @@
+{
+  "kind": "OBJECT",
+  "name": "EarlyBirdDiscount",
+  "description": null,
+  "fields": [
+    {
+      "name": "amount",
+      "description": "Amount in dollars",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "daysBefore",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "discountTicketsRemaining",
+      "description": "Remaining number of redemptions left for early bird discount, null if no max quantity defined",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "id",
+      "description": "Unique identifier of the early bird discount.",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "maximumQuantity",
+      "description": "Maximum amount of discounts available for given promotion, null if no max quantity defined",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "promotionEnds",
+      "description": "The datetime of when this promotion ends",
+      "args": [],
+      "type": "DateTime"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "ENUM",
+  "name": "GroupMembershipSortField",
+  "description": null,
+  "values": [
+    {
+      "name": "DUES",
+      "description": null
+    },
+    {
+      "name": "JOIN_DATE",
+      "description": null
+    },
+    {
+      "name": "LAST_VISITED",
+      "description": null
+    },
+    {
+      "name": "NAME",
+      "description": null
+    },
+    {
+      "name": "ROLE",
+      "description": null
+    }
+  ]
+}

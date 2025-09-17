@@ -1,0 +1,31 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "CovidPrecautionsInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "details",
+      "description": "Free-form detailed information organizer provides\n  \nTo clear the details from an existing event, provide an empty string",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "masks",
+      "description": "Policy on wearing masks",
+      "defaultValue": null,
+      "type": "CovidPrecautionMaskPolicy"
+    },
+    {
+      "name": "vaccinations",
+      "description": "Policy on vaccination",
+      "defaultValue": null,
+      "type": "CovidPrecautionVaccinePolicy"
+    },
+    {
+      "name": "venueType",
+      "description": "Venue type",
+      "defaultValue": null,
+      "type": "CovidPrecautionVenueType"
+    }
+  ]
+}

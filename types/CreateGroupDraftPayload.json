@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "CreateGroupDraftPayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "errors",
+      "description": null,
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "group",
+      "description": null,
+      "args": [],
+      "type": "Group"
+    },
+    {
+      "name": "token",
+      "description": "A token identifying a group draft",
+      "args": [],
+      "type": "ID"
+    }
+  ]
+}

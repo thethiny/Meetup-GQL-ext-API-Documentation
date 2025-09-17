@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "EventType",
+  "description": "Type of event",
+  "values": [
+    {
+      "name": "HYBRID",
+      "description": "The event takes place both online and in-person"
+    },
+    {
+      "name": "ONLINE",
+      "description": "The event takes place online"
+    },
+    {
+      "name": "PHYSICAL",
+      "description": "The event takes place in-person"
+    }
+  ]
+}

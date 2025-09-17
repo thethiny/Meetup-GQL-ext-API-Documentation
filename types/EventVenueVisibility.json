@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "EventVenueVisibility",
+  "description": null,
+  "values": [
+    {
+      "name": "GROUP",
+      "description": null
+    },
+    {
+      "name": "PUBLIC",
+      "description": null
+    }
+  ]
+}

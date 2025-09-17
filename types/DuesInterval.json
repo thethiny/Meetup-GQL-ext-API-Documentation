@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "DuesInterval",
+  "description": "Dues interval enum.",
+  "values": [
+    {
+      "name": "ANNUALLY",
+      "description": "Yearly interval."
+    },
+    {
+      "name": "MONTHLY",
+      "description": "Monthly interval."
+    }
+  ]
+}

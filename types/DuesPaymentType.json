@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "DuesPaymentType",
+  "description": null,
+  "values": [
+    {
+      "name": "OTHER",
+      "description": null
+    },
+    {
+      "name": "PAYPAL",
+      "description": null
+    },
+    {
+      "name": "STRIPE",
+      "description": null
+    }
+  ]
+}

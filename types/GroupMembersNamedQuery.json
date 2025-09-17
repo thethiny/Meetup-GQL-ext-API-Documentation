@@ -1,0 +1,11 @@
+{
+  "kind": "ENUM",
+  "name": "GroupMembersNamedQuery",
+  "description": "#########################\n search and filters\n#########################",
+  "values": [
+    {
+      "name": "TOP_ACTIVE_MEMBERS_IN_GROUP",
+      "description": "query for a set of \"most active\" Members of a Group\noriginally, in order to use in Step Up email to target this group of users\nthe definition of \"most active\" is volatile and business-defined heuristic\nmaintained by #notifications"
+    }
+  ]
+}

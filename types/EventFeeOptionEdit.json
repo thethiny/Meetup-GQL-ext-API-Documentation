@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "EventFeeOptionEdit",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "enabled",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean!"
+    },
+    {
+      "name": "fee",
+      "description": null,
+      "defaultValue": null,
+      "type": "EventFeeOption"
+    }
+  ]
+}

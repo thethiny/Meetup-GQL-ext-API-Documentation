@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "KeywordSort",
+  "description": "Only DESC order is supported at the moment",
+  "inputFields": [
+    {
+      "name": "sortField",
+      "description": "Field for sorting",
+      "defaultValue": null,
+      "type": "KeywordSortField"
+    },
+    {
+      "name": "sortOrder",
+      "description": "Order of sorting",
+      "defaultValue": null,
+      "type": "SortOrder"
+    }
+  ]
+}

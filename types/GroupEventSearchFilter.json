@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupEventSearchFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "query",
+      "description": "A textual query containing event content to find",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "status",
+      "description": "status of the event. defaults to UPCOMING",
+      "defaultValue": null,
+      "type": "GroupEventSearchEventStatus"
+    }
+  ]
+}

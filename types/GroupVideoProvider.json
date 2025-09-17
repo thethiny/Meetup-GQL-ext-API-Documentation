@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "GroupVideoProvider",
+  "description": "Group video provider (hosting service).",
+  "values": [
+    {
+      "name": "VIMEO",
+      "description": null
+    },
+    {
+      "name": "YOUTUBE",
+      "description": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "EditEventPayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "errors",
+      "description": null,
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "event",
+      "description": null,
+      "args": [],
+      "type": "Event"
+    }
+  ]
+}

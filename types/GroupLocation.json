@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupLocation",
+  "description": "Group Location (if any is provided, the other one is required)",
+  "inputFields": [
+    {
+      "name": "geoLocation",
+      "description": null,
+      "defaultValue": null,
+      "type": "GeoLocation"
+    },
+    {
+      "name": "pointLocation",
+      "description": null,
+      "defaultValue": null,
+      "type": "PointLocation"
+    }
+  ]
+}

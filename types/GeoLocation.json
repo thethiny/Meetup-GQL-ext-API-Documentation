@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GeoLocation",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "country",
+      "description": "The ISO_3166-1 country code for the country which contains the city",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "zip",
+      "description": "The ZIP code of the city",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

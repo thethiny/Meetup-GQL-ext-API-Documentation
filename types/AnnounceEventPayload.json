@@ -1,0 +1,19 @@
+{
+  "kind": "OBJECT",
+  "name": "AnnounceEventPayload",
+  "description": null,
+  "fields": [
+    {
+      "name": "errors",
+      "description": "Null if event has been successfuly announced or array of errors if something gone wrong",
+      "args": [],
+      "type": "[PayloadError!]"
+    },
+    {
+      "name": "event",
+      "description": "The event which has been announced",
+      "args": [],
+      "type": "Event"
+    }
+  ]
+}

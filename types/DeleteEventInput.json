@@ -1,0 +1,25 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "DeleteEventInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "eventId",
+      "description": "Alphanumeric identifier for the event",
+      "defaultValue": null,
+      "type": "ID!"
+    },
+    {
+      "name": "removeFromCalendar",
+      "description": "Optional boolean parameter that, when set to true, fully deletes the event.\nIf set to false, this operation cancels the event instead\nof completely removing it from the group's calendar.\nThis defaults to true when not set explicitly.",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "updateSeries",
+      "description": "Optional boolean parameter that, when set to true, will update all future\nrecurrences of this event if this event belongs to an event series.\nRequesting this for an event that doesn't belong to an active series will result in an error.",
+      "defaultValue": null,
+      "type": "Boolean"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupDuesReasons",
+  "description": "Reasons why dues are charged.",
+  "fields": [
+    {
+      "name": "compensation",
+      "description": "Are dues to support group organizers?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "coverCosts",
+      "description": "Are dues to cover group expenses?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "engagement",
+      "description": "Are dues for keeping group members engaged?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "equipment",
+      "description": "Are dues to pay for equipment?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "improveMeetups",
+      "description": "Are dues to make meetups better?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "otherWhy",
+      "description": "Are dues collected for other reason?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "reserveFund",
+      "description": "Are dues reserved for unexpected expenses in the future?",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "whyCustom",
+      "description": "The other reason text.",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

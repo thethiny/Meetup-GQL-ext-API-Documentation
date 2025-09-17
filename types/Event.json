@@ -1,0 +1,286 @@
+{
+  "kind": "OBJECT",
+  "name": "Event",
+  "description": null,
+  "fields": [
+    {
+      "name": "createdTime",
+      "description": "Event creating datetime",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "dateTime",
+      "description": "The scheduled time of the event",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "description",
+      "description": "Description of the event. Visibility may be limited for private groups",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "duration",
+      "description": "Duration of the event",
+      "args": [],
+      "type": "Duration"
+    },
+    {
+      "name": "endTime",
+      "description": "Time when event ends",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "eventHosts",
+      "description": "List of event hosts",
+      "args": [],
+      "type": "[EventHost]"
+    },
+    {
+      "name": "eventType",
+      "description": "Type of the event",
+      "args": [],
+      "type": "EventType!"
+    },
+    {
+      "name": "eventUrl",
+      "description": "Name used for the event's web address on meetup.com. Must be between 6 and 60 characters",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "featuredEventPhoto",
+      "description": null,
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "feeSettings",
+      "description": "Optional organizer-defined fee payment settings",
+      "args": [],
+      "type": "EventFeeSettings"
+    },
+    {
+      "name": "group",
+      "description": "the group this event belongs to",
+      "args": [],
+      "type": "Group"
+    },
+    {
+      "name": "guestLimit",
+      "description": null,
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "guestsAllowed",
+      "description": null,
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "hostRsvps",
+      "description": "Returns a connection for the RSVP's for the hosts of the event.",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "HostRsvpConnection!"
+    },
+    {
+      "name": "howToFindUs",
+      "description": "String describing the location event venue. Visibility may be limited for private groups\nFor online events this field is used for the event's url.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "id",
+      "description": "A unique but unstable identifier for the event.\nRecurring events that have see activity may change the value of this identifier.",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "isAttending",
+      "description": "True the current member attending this event",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isSaved",
+      "description": "True if the current member has saved this event",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "maxTickets",
+      "description": "Maximum amount of RSVP spots for the event",
+      "args": [],
+      "type": "Int"
+    },
+    {
+      "name": "networkEvent",
+      "description": "Network event details",
+      "args": [],
+      "type": "NetworkEvent"
+    },
+    {
+      "name": "numberOfAllowedGuests",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "photoAlbum",
+      "description": null,
+      "args": [],
+      "type": "EventPhotoAlbum"
+    },
+    {
+      "name": "rsvp",
+      "description": "Get the current member's RSVP for the event if any",
+      "args": [],
+      "type": "Rsvp"
+    },
+    {
+      "name": "rsvpQuestions",
+      "description": "Get a list of RSVP questions for the event. Visibility may be limited",
+      "args": [],
+      "type": "[RsvpQuestion!]!"
+    },
+    {
+      "name": "rsvpSearch",
+      "description": "Search for members RSVP's in this event. Visibility may be limited for private groups",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "RsvpSearchFilter!"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "RsvpSearchConnection!"
+    },
+    {
+      "name": "rsvpSettings",
+      "description": null,
+      "args": [],
+      "type": "RsvpOpenSettings!"
+    },
+    {
+      "name": "rsvpState",
+      "description": "Get the current member's RSVP state for the event\nUses own memberId if nothing was provided.",
+      "args": [],
+      "type": "RsvpState!"
+    },
+    {
+      "name": "rsvps",
+      "description": "Connections of filterable rsvps. Full list of information may be limited for private groups",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "RsvpFilter"
+        },
+        {
+          "name": "first",
+          "description": "Defaults to 20 rsvps",
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": "Controls the sort order or results\nNote: RsvpSort.sortField LOCAL_TIME and DATETIME are equivalant in this contetx and apply to the rsvp's updated field",
+          "defaultValue": null,
+          "type": "RsvpSort"
+        }
+      ],
+      "type": "RsvpConnection!"
+    },
+    {
+      "name": "series",
+      "description": "If this event is part of a series, this field describes that series",
+      "args": [],
+      "type": "Series"
+    },
+    {
+      "name": "speakerDetails",
+      "description": "Speaker details",
+      "args": [],
+      "type": "SpeakerDetails"
+    },
+    {
+      "name": "status",
+      "description": "Current status of the event",
+      "args": [],
+      "type": "EventStatus!"
+    },
+    {
+      "name": "title",
+      "description": "The event title for  display",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "token",
+      "description": "A unique and stable identifier for the event.",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "topics",
+      "description": "A connection of topics for the event",
+      "args": [],
+      "type": "TopicsConnection!"
+    },
+    {
+      "name": "venues",
+      "description": "Returns all venues for an event.\nWill return a list of 1 venue for online or in person\nHybrid events will have 2 entries",
+      "args": [],
+      "type": "[Venue!]"
+    },
+    {
+      "name": "waitlistMode",
+      "description": "Waitlist handling when RSVP limit is reached",
+      "args": [],
+      "type": "WaitlistMode!"
+    },
+    {
+      "name": "zoomMeetingId",
+      "description": "A Zoom meeting ID if the event is online and uses Zoom integration.",
+      "args": [],
+      "type": "ID"
+    }
+  ]
+}

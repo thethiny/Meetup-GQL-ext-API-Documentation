@@ -1,0 +1,13 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "DeleteGroupDraftInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "token",
+      "description": "Group draft token",
+      "defaultValue": null,
+      "type": "String!"
+    }
+  ]
+}

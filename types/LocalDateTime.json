@@ -1,0 +1,6 @@
+{
+  "kind": "SCALAR",
+  "name": "LocalDateTime",
+  "description": "ISO-8601 local date-time, e.g. 2023-09-19T15:01:52",
+  "scalar": true
+}

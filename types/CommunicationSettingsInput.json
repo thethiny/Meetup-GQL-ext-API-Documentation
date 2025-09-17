@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "CommunicationSettingsInput",
+  "description": "Event communication tools settings.\n@deprecated(reason: \"feature removed\")",
+  "inputFields": [
+    {
+      "name": "chat",
+      "description": "Setting responsible for event chat.",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "comments",
+      "description": "Setting responsible for event comments.",
+      "defaultValue": null,
+      "type": "Boolean"
+    }
+  ]
+}

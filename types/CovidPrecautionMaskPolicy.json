@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "CovidPrecautionMaskPolicy",
+  "description": null,
+  "values": [
+    {
+      "name": "NOT_REQUIRED",
+      "description": null
+    },
+    {
+      "name": "REQUIRED",
+      "description": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupVenueConnection",
+  "description": "#########################\n relationships\n#########################",
+  "fields": [
+    {
+      "name": "edges",
+      "description": null,
+      "args": [],
+      "type": "[GroupVenueEdge!]!"
+    },
+    {
+      "name": "pageInfo",
+      "description": null,
+      "args": [],
+      "type": "PageInfo!"
+    },
+    {
+      "name": "totalCount",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

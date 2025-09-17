@@ -1,0 +1,55 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "EventFeeOption",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "amount",
+      "description": "Representing the amount of the event fee if a fee is charged for the event.\nIf the group is in the United States, this may not exceed 4999 (for any currency).\nOtherwise, this may not exceed 1000000 (for any currency).\nIf the event fee is charged with WePay, this must be at least 1.0 USD\nIf not passed - default value '0' will be used.",
+      "defaultValue": "0",
+      "type": "Int!"
+    },
+    {
+      "name": "currency",
+      "description": "String representing the currency for the event fee if a fee is charged for the event.\nMay be one of: AUD,BRL,CAD,CHF,EUR,GBP,INR,JPY,KRW,PLN,RUB,THB,TRY,USD\nIf not passed - default value 'USD' will be used.",
+      "defaultValue": "USD",
+      "type": "EventFeeCurrency!"
+    },
+    {
+      "name": "earlyBirdDiscount",
+      "description": "Early bird discount for the event.",
+      "defaultValue": null,
+      "type": "EarlyBirdDiscountInput"
+    },
+    {
+      "name": "enabled",
+      "description": "Used only in the 'edit' flow, ignored in 'create'.\nPass 'false' to make venue free (fee amount = 0).\nOther fields will be substituted by default values in this case.",
+      "defaultValue": "true",
+      "type": "Boolean!"
+    },
+    {
+      "name": "paymentMethod",
+      "description": "String representing the payment method for the event fee if a fee is charged for the event\nIf not passed - default value 'CASH' will be used.",
+      "defaultValue": "CASH",
+      "type": "PaymentMethod!"
+    },
+    {
+      "name": "paypalEmail",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "promoCodes",
+      "description": "A list of promo codes for the event.",
+      "defaultValue": null,
+      "type": "[EventPromoCodeInput!]"
+    },
+    {
+      "name": "refundPolicy",
+      "description": "String setting the refund policy if the event has a fee. May not be longer than 250 characters.",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupEventPhotoCreateInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "albumId",
+      "description": "Photo Album id",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "contentType",
+      "description": "Content type",
+      "defaultValue": null,
+      "type": "ContentType!"
+    },
+    {
+      "name": "description",
+      "description": "Photo description",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "groupId",
+      "description": "Meetup Group id",
+      "defaultValue": null,
+      "type": "ID!"
+    },
+    {
+      "name": "isVertical",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "newAlbumName",
+      "description": "The name of the album",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "orderId",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "photoType",
+      "description": "Photo type",
+      "defaultValue": null,
+      "type": "PhotoType!"
+    },
+    {
+      "name": "setAsMain",
+      "description": "Set as main group photo",
+      "defaultValue": null,
+      "type": "Boolean!"
+    }
+  ]
+}

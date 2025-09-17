@@ -1,0 +1,181 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "CreateEventInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "attributes",
+      "description": "Attrbute ids to associate with the event",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "covidPrecautions",
+      "description": "List of hosted defined precautions for COVID 19",
+      "defaultValue": null,
+      "type": "CovidPrecautionsInput"
+    },
+    {
+      "name": "description",
+      "description": "String setting the description of the event, in simple HTML format. May not be longer than 50000 characters.",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "duration",
+      "description": "Representing event duration in ISO 8601 duration specified format",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventHosts",
+      "description": "List of up to 5 valid member ids who will be hosts of the event.\nThis implicitly includes the authenticated member when `selfRsvp` is true or not provided.",
+      "defaultValue": null,
+      "type": "[Int!]"
+    },
+    {
+      "name": "featuredPhotoId",
+      "description": "Positive integer representing a numeric identifier for a photo, which must be one associated with this group. When undefined or 0, no photo is set.",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "feeOption",
+      "description": "Representing attributes for paid events",
+      "defaultValue": null,
+      "type": "EventFeeOption"
+    },
+    {
+      "name": "fundraising",
+      "description": "Settings pretaining to fundraising for this event",
+      "defaultValue": null,
+      "type": "EventFundraisingInput"
+    },
+    {
+      "name": "groupUrlname",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "howToFindUs",
+      "description": "String setting the description for the location of the host(s) at the event venue.\nFor online events this field is used for the event's url.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "isCopy",
+      "description": "Flag that indicates if this event is being copied from another event",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "location",
+      "description": "Representing adjusted venue latitude and longitude",
+      "defaultValue": null,
+      "type": "PointLocation"
+    },
+    {
+      "name": "proNetworkEvents",
+      "description": "Pro Network Event settings",
+      "defaultValue": null,
+      "type": "ProNetworkEventsInput"
+    },
+    {
+      "name": "publishStatus",
+      "description": "Indicates whether an event will be published to the group or as a draft visible only to the leadership team.  This defaults to \"PUBLISHED\".",
+      "defaultValue": null,
+      "type": "PublishStatus"
+    },
+    {
+      "name": "question",
+      "description": "String setting the RSVP survey question for the event. May not be longer than 250 characters.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "recurring",
+      "description": "Representing attributes to schedule recurring event",
+      "defaultValue": null,
+      "type": "RecurringEvents"
+    },
+    {
+      "name": "rsvpSettings",
+      "description": "Representing rsvp settings (open/close time etc.)",
+      "defaultValue": null,
+      "type": "RsvpSettings"
+    },
+    {
+      "name": "rsvpSurvey",
+      "description": "Representing attributes survey questions which will be available for Pro admins",
+      "defaultValue": null,
+      "type": "RsvpSurvey"
+    },
+    {
+      "name": "selfRsvp",
+      "description": "Boolean value indicating whether the authenticated member will be RSVP'd to the event upon creation.\nThis defaults to true.",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "speakerDetails",
+      "description": "Speaker details",
+      "defaultValue": null,
+      "type": "SpeakerDetailsInput"
+    },
+    {
+      "name": "startDateTime",
+      "description": "Field representing event start time",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "templateId",
+      "description": "Template Id to store a mapping between the event and the template",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "title",
+      "description": "String setting the name of the event. Must be at least 1 character and may not be longer than 80 characters.",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "topics",
+      "description": "Topic ids to associate with the event",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "venueId",
+      "description": "Representing a numeric identifier for a venue. For online events use the string alias 'online'.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "venueIds",
+      "description": "List of venues in which given event will take place at.\nNeeded only for the events with the type HYBRID at the moment.\nOnly one ONLINE event type id should be passed here\nAND only PHYSICAL event type - for the venueId field.",
+      "defaultValue": null,
+      "type": "[String!]"
+    },
+    {
+      "name": "venueOptions",
+      "description": "Separate options for multiple venues, used only for hybrid events.\nProvided venue ids have to correspond to venueIds under event type.\nAlias 'online' can be used instead of online venue id.\nThis field will be ignored for non-hybrid events.",
+      "defaultValue": null,
+      "type": "[VenueOptionInput!]"
+    },
+    {
+      "name": "venueVisibility",
+      "description": "Field indicating whether the event venue and host location description\nwill be visible to non-members of the hosting group.",
+      "defaultValue": null,
+      "type": "EventVenueVisibility"
+    },
+    {
+      "name": "zoomMeetingId",
+      "description": "Zoom meeting id (64-bit integer number).",
+      "defaultValue": null,
+      "type": "ID"
+    }
+  ]
+}

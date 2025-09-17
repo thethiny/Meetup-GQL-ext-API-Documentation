@@ -1,0 +1,63 @@
+{
+  "kind": "ENUM",
+  "name": "Currency",
+  "description": null,
+  "values": [
+    {
+      "name": "AUD",
+      "description": null
+    },
+    {
+      "name": "BRL",
+      "description": null
+    },
+    {
+      "name": "CAD",
+      "description": null
+    },
+    {
+      "name": "CHF",
+      "description": null
+    },
+    {
+      "name": "EUR",
+      "description": null
+    },
+    {
+      "name": "GBP",
+      "description": null
+    },
+    {
+      "name": "INR",
+      "description": null
+    },
+    {
+      "name": "JPY",
+      "description": null
+    },
+    {
+      "name": "KRW",
+      "description": null
+    },
+    {
+      "name": "PLN",
+      "description": null
+    },
+    {
+      "name": "RUB",
+      "description": null
+    },
+    {
+      "name": "THB",
+      "description": null
+    },
+    {
+      "name": "TRY",
+      "description": null
+    },
+    {
+      "name": "USD",
+      "description": null
+    }
+  ]
+}

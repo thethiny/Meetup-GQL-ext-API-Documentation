@@ -1,0 +1,35 @@
+{
+  "kind": "ENUM",
+  "name": "DayOfWeek",
+  "description": null,
+  "values": [
+    {
+      "name": "FRIDAY",
+      "description": null
+    },
+    {
+      "name": "MONDAY",
+      "description": null
+    },
+    {
+      "name": "SATURDAY",
+      "description": null
+    },
+    {
+      "name": "SUNDAY",
+      "description": null
+    },
+    {
+      "name": "THURSDAY",
+      "description": null
+    },
+    {
+      "name": "TUESDAY",
+      "description": null
+    },
+    {
+      "name": "WEDNESDAY",
+      "description": null
+    }
+  ]
+}

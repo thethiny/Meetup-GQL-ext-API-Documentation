@@ -1,0 +1,367 @@
+{
+  "kind": "OBJECT",
+  "name": "Group",
+  "description": "A Meetup Group",
+  "fields": [
+    {
+      "name": "activeTopics",
+      "description": "A list of group active topics.",
+      "args": [],
+      "type": "[Topic!]!"
+    },
+    {
+      "name": "allowMemberPhotoUploads",
+      "description": "Indicates if members are allowed to upload photos.",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "canAddPhotos",
+      "description": "Shows current user's permission to upload photos to this group.",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "city",
+      "description": "A city where a group is located.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "country",
+      "description": "A country where a group is located.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "customMemberLabel",
+      "description": "What this group calls its members",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "description": "Description of a group.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "duesSettings",
+      "description": "Active group membership dues settings. Available only when dues are enabled in the group.",
+      "args": [],
+      "type": "DuesSettings"
+    },
+    {
+      "name": "emailAnnounceAddress",
+      "description": "an email address, representing an Organizer(s) of this Meetup Group. Meant to use for Organizer Announcements",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "events",
+      "description": "Events of the group",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": "Options for filtering the results",
+          "defaultValue": null,
+          "type": "GroupEventFilter"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": "Options for sorting the results",
+          "defaultValue": null,
+          "type": "SortOrder"
+        },
+        {
+          "name": "status",
+          "description": "Event status",
+          "defaultValue": null,
+          "type": "EventStatus"
+        }
+      ],
+      "type": "GroupEventConnection!"
+    },
+    {
+      "name": "featuredEventPhotos",
+      "description": "Returns a list of recently used event photos",
+      "args": [
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "FeaturedEventPhotoConnection!"
+    },
+    {
+      "name": "foundedDate",
+      "description": "Date and time of when a group was created.",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "groupAnalytics",
+      "description": "Groups analytics, only available for groups which are part of a pro network",
+      "args": [],
+      "type": "GroupAnalytics"
+    },
+    {
+      "name": "id",
+      "description": "Group unique identifier.",
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "isMember",
+      "description": "Checks whether the specified member is in this group.",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isPrimaryOrganizer",
+      "description": "Checks whether the current member is the primary organizer of this group",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "isPrivate",
+      "description": "If the group is private",
+      "args": [],
+      "type": "Boolean!"
+    },
+    {
+      "name": "joinMode",
+      "description": "Join mode for new group members.",
+      "args": [],
+      "type": "GroupJoinMode!"
+    },
+    {
+      "name": "keyGroupPhoto",
+      "description": "A group featured (cover) photo.",
+      "args": [],
+      "type": "PhotoInfo"
+    },
+    {
+      "name": "lat",
+      "description": "A latitude of a group location.",
+      "args": [],
+      "type": "Float"
+    },
+    {
+      "name": "link",
+      "description": "Link for the group on meetup.com",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "lon",
+      "description": "A longitude of a group location.",
+      "args": [],
+      "type": "Float"
+    },
+    {
+      "name": "membershipMetadata",
+      "description": "The authenticated member's membership within this group if any",
+      "args": [],
+      "type": "Membership"
+    },
+    {
+      "name": "memberships",
+      "description": "Members in this group",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "MembershipFilter"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        },
+        {
+          "name": "sort",
+          "description": null,
+          "defaultValue": null,
+          "type": "GroupMembershipSort"
+        }
+      ],
+      "type": "GroupMemberConnection!"
+    },
+    {
+      "name": "name",
+      "description": "Name of a group.",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "needsPhoto",
+      "description": "A flag indicating whether new members are required to upload a photo to their group profile in order to join this group.",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "needsQuestions",
+      "description": "A flag indicating whether new members are required to answer organizer's questions in order to join this group.",
+      "args": [],
+      "type": "Boolean"
+    },
+    {
+      "name": "organizer",
+      "description": "The primary organizer of the group. Null if the group is leaderless.",
+      "args": [],
+      "type": "Member"
+    },
+    {
+      "name": "proJoinDate",
+      "description": "A date when group joined pro network",
+      "args": [],
+      "type": "DateTime"
+    },
+    {
+      "name": "proNetwork",
+      "description": "If a group is a part of a Pro network, the network properties.",
+      "args": [
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "ProNetworkFilter"
+        }
+      ],
+      "type": "ProNetwork"
+    },
+    {
+      "name": "questions",
+      "description": "If a group requires new members to answer questions, a list of questions.",
+      "args": [],
+      "type": "[GroupQuestion!]!"
+    },
+    {
+      "name": "socialNetworks",
+      "description": "A list of links to this group in social networks.",
+      "args": [],
+      "type": "[SocialNetwork!]!"
+    },
+    {
+      "name": "sponsors",
+      "description": "List of the sponsors for the group",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "filter",
+          "description": null,
+          "defaultValue": null,
+          "type": "SponsorsFilter"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "ProGroupSponsorsConnection!"
+    },
+    {
+      "name": "state",
+      "description": "A state, county or province where a group is located.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "stats",
+      "description": "Statistics about group members.",
+      "args": [],
+      "type": "GroupStats"
+    },
+    {
+      "name": "status",
+      "description": "Group status.",
+      "args": [],
+      "type": "GroupStatus!"
+    },
+    {
+      "name": "timezone",
+      "description": "Timezone identifier as used by the IANA timezone database, for example: \"US/Eastern\", \"Asia/Calcutta\"",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "topicCategory",
+      "description": "A group topic category.",
+      "args": [],
+      "type": "TopicCategory"
+    },
+    {
+      "name": "urlname",
+      "description": "Group unique URL path.",
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "venues",
+      "description": "Recently used in-person venues",
+      "args": [
+        {
+          "name": "after",
+          "description": null,
+          "defaultValue": null,
+          "type": "String"
+        },
+        {
+          "name": "first",
+          "description": null,
+          "defaultValue": null,
+          "type": "Int"
+        }
+      ],
+      "type": "GroupVenueConnection!"
+    },
+    {
+      "name": "video",
+      "description": "Group featured video.",
+      "args": [],
+      "type": "GroupVideo"
+    },
+    {
+      "name": "welcomeBlurb",
+      "description": "A group welcome message.",
+      "args": [],
+      "type": "String"
+    },
+    {
+      "name": "zip",
+      "description": "A zip code of a group location.",
+      "args": [],
+      "type": "String"
+    }
+  ]
+}

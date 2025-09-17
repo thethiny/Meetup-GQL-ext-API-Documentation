@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "GroupVisibility",
+  "description": null,
+  "values": [
+    {
+      "name": "ALL",
+      "description": null
+    },
+    {
+      "name": "PRIVATE",
+      "description": null
+    },
+    {
+      "name": "PUBLIC",
+      "description": null
+    }
+  ]
+}

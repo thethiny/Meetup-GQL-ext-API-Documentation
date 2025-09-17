@@ -1,0 +1,145 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupMutation",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "activeTopics",
+      "description": "List of topics associated to group",
+      "defaultValue": null,
+      "type": "[ID!]"
+    },
+    {
+      "name": "allowMemberPhotoUploads",
+      "description": "Indicates if members are allowed to upload photos",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "country",
+      "description": "The country/city/state/zip of the group",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "coverPhotoId",
+      "description": "Positive integer representing a numeric identifier for a photo, which must be one associated with this group. When undefined or 0, no photo is set.\nThis is refered to as Group.keyPhoto in Group responses",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "customMemberLabel",
+      "description": "The way members are called",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "feeCurrency",
+      "description": "Currency expressed in iso code 'USD', 'EUR', etc.",
+      "defaultValue": null,
+      "type": "Currency"
+    },
+    {
+      "name": "joinMode",
+      "description": "The way a new member let into the group",
+      "defaultValue": null,
+      "type": "GroupJoinMode"
+    },
+    {
+      "name": "lat",
+      "description": null,
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "listAddress",
+      "description": "Indicates the username of the mailing list address",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "lon",
+      "description": null,
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "name",
+      "description": "Read-able name of the Group that members see",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "needsPhoto",
+      "description": "Indicates if new member profile have to provide a photo",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "needsQuestions",
+      "description": "Indicates if new member must answer questions to join",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "privacy",
+      "description": "public or private",
+      "defaultValue": null,
+      "type": "GroupPrivacy"
+    },
+    {
+      "name": "questions",
+      "description": "List of 1 to 5 questions to be answered by new members when join the group",
+      "defaultValue": null,
+      "type": "[GroupQuestionInput!]"
+    },
+    {
+      "name": "shortDesc",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "socialNetworks",
+      "description": "List of social networks for the group",
+      "defaultValue": null,
+      "type": "[SocialNetworkInput!]"
+    },
+    {
+      "name": "state",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "urlname",
+      "description": "The name added after meetup.com",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "video",
+      "description": "Group featured video.",
+      "defaultValue": null,
+      "type": "GroupVideoInput"
+    },
+    {
+      "name": "welcomeBlurb",
+      "description": "Welcome message to new members",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "zip",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

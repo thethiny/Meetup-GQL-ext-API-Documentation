@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupQuestion",
+  "description": null,
+  "fields": [
+    {
+      "name": "id",
+      "description": null,
+      "args": [],
+      "type": "ID!"
+    },
+    {
+      "name": "question",
+      "description": null,
+      "args": [],
+      "type": "String!"
+    },
+    {
+      "name": "sort",
+      "description": null,
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupStatsEventRatings",
+  "description": "Summary of group event ratings.",
+  "fields": [
+    {
+      "name": "average",
+      "description": "An average rating across all events in the group.",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "totalRatings",
+      "description": "A total number of star ratings left by members.",
+      "args": [],
+      "type": "Int!"
+    },
+    {
+      "name": "totalReviews",
+      "description": "A total number of reviews (stars, comments, likes/dislikes) left by members.",
+      "args": [],
+      "type": "Int!"
+    }
+  ]
+}

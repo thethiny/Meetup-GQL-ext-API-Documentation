@@ -1,0 +1,6 @@
+{
+  "kind": "SCALAR",
+  "name": "ID",
+  "description": "Built-in ID",
+  "scalar": true
+}

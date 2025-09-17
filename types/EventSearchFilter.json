@@ -1,0 +1,157 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "EventSearchFilter",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "categoryId",
+      "description": "ID of the event category",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "cityLocations",
+      "description": "City Boroughs or Neighborhoods Locations",
+      "defaultValue": null,
+      "type": "[CityLocation!]"
+    },
+    {
+      "name": "country",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "doConsolidateEvents",
+      "description": "If true, consolidate events in series and return the latest event of the series/recurring events",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "doPromotePaypalEvents",
+      "description": "If true, get a paypal event and put it into third search result",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "endDateRange",
+      "description": "The latest date of event",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "endTime",
+      "description": "The end time of day to filter events to.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "eventType",
+      "description": "Type of event: online or not",
+      "defaultValue": null,
+      "type": "EventType"
+    },
+    {
+      "name": "isHappeningNow",
+      "description": "Whether the event is in progress",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "isStartingSoon",
+      "description": null,
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "joinReasons",
+      "description": "List of reasons to filter events more further",
+      "defaultValue": null,
+      "type": "[ReasonForJoining!]"
+    },
+    {
+      "name": "lat",
+      "description": "Latitude of the location of an event",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "lon",
+      "description": "Longitude if the location of an event",
+      "defaultValue": null,
+      "type": "Float!"
+    },
+    {
+      "name": "prioritizeRsvps",
+      "description": "Prioritize groups with recent RSVP",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "query",
+      "description": "A pattern string for searching by occurrence in an event title",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "radius",
+      "description": "The search radius relative to location (in miles)",
+      "defaultValue": null,
+      "type": "Float"
+    },
+    {
+      "name": "startDateRange",
+      "description": "The earliest date of event",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "startTime",
+      "description": "The start time of day to filter events from.\nFor every event between the startDateRange and endDateRange, the startTime is used to filter further\nby time. Ex: Get all events in January. And from that, get events that start at 9 am.",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "state",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "timeDecayOffset",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "timeDecayScale",
+      "description": "Prioritize groups with recent activity",
+      "defaultValue": null,
+      "type": "Int"
+    },
+    {
+      "name": "topicCategoryId",
+      "description": "The id of topicCategory [from topic taxonomy]. Used if categoryId is empty.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "useTimeOfDayEmbedding",
+      "description": "Use time of day embedding",
+      "defaultValue": null,
+      "type": "Boolean"
+    },
+    {
+      "name": "zip",
+      "description": null,
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

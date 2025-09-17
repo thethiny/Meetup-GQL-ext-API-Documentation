@@ -1,0 +1,37 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupEventFilter",
+  "description": " Used by Group",
+  "inputFields": [
+    {
+      "name": "afterDateTime",
+      "description": "Show only events starting after the specified date.",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "beforeDateTime",
+      "description": "Show only events starting before the specified date.",
+      "defaultValue": null,
+      "type": "DateTime"
+    },
+    {
+      "name": "hostId",
+      "description": "Show only events hosted by the specified member.",
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "status",
+      "description": "Show only events in the specified statuses.",
+      "defaultValue": null,
+      "type": "[EventStatus]"
+    },
+    {
+      "name": "title",
+      "description": "Show only events with title matching the specified string (case-insensitive).",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "kind": "SCALAR",
+  "name": "Duration",
+  "description": "A custom scalar that handles duration",
+  "scalar": true
+}

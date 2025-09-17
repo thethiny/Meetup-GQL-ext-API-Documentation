@@ -1,0 +1,6 @@
+{
+  "kind": "SCALAR",
+  "name": "DateTime",
+  "description": "A custom scalar that handles timestamps",
+  "scalar": true
+}

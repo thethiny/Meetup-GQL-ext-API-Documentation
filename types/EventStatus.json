@@ -1,0 +1,59 @@
+{
+  "kind": "ENUM",
+  "name": "EventStatus",
+  "description": null,
+  "values": [
+    {
+      "name": "ACTIVE",
+      "description": null
+    },
+    {
+      "name": "AUTOSCHED",
+      "description": null
+    },
+    {
+      "name": "AUTOSCHED_CANCELLED",
+      "description": null
+    },
+    {
+      "name": "AUTOSCHED_DRAFT",
+      "description": null
+    },
+    {
+      "name": "AUTOSCHED_FINISHED",
+      "description": null
+    },
+    {
+      "name": "BLOCKED",
+      "description": null
+    },
+    {
+      "name": "CANCELLED",
+      "description": null
+    },
+    {
+      "name": "CANCELLED_PERM",
+      "description": null
+    },
+    {
+      "name": "DRAFT",
+      "description": null
+    },
+    {
+      "name": "PAST",
+      "description": null
+    },
+    {
+      "name": "PENDING",
+      "description": null
+    },
+    {
+      "name": "PROPOSED",
+      "description": null
+    },
+    {
+      "name": "TEMPLATE",
+      "description": null
+    }
+  ]
+}

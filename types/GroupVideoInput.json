@@ -1,0 +1,19 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "GroupVideoInput",
+  "description": "Group featured video input.\nProvide values for all fields in order to create or update a video.\nSet all fields to null in order to delete a video.\nOther combinations are invalid.",
+  "inputFields": [
+    {
+      "name": "provider",
+      "description": "Video provider (hosting service).",
+      "defaultValue": null,
+      "type": "GroupVideoProvider"
+    },
+    {
+      "name": "url",
+      "description": "Video URL.",
+      "defaultValue": null,
+      "type": "String"
+    }
+  ]
+}

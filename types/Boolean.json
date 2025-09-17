@@ -1,0 +1,6 @@
+{
+  "kind": "SCALAR",
+  "name": "Boolean",
+  "description": "Built-in Boolean",
+  "scalar": true
+}

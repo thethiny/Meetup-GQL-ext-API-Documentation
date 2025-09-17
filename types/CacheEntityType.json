@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "CacheEntityType",
+  "description": "type used in @purgePageCache directive\nSupported Types of Meetup Entities that the Fastly Cache is aware of",
+  "values": [
+    {
+      "name": "EVENT",
+      "description": null
+    },
+    {
+      "name": "GROUP",
+      "description": null
+    }
+  ]
+}

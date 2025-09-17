@@ -1,0 +1,15 @@
+{
+  "kind": "ENUM",
+  "name": "KeywordSortField",
+  "description": "How should be sorted results of the search",
+  "values": [
+    {
+      "name": "DATETIME",
+      "description": "Results will be sorted by datetime"
+    },
+    {
+      "name": "RELEVANCE",
+      "description": "Results will be sorted by relevance"
+    }
+  ]
+}

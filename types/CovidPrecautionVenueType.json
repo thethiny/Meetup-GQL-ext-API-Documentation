@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "CovidPrecautionVenueType",
+  "description": null,
+  "values": [
+    {
+      "name": "INDOORS",
+      "description": null
+    },
+    {
+      "name": "NONE",
+      "description": null
+    },
+    {
+      "name": "OUTDOORS",
+      "description": null
+    }
+  ]
+}

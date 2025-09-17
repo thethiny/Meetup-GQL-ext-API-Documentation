@@ -1,0 +1,49 @@
+{
+  "kind": "INPUT_OBJECT",
+  "name": "CreateVenueInput",
+  "description": null,
+  "inputFields": [
+    {
+      "name": "address",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "city",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "country",
+      "description": "lower case two character country code",
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "groupId",
+      "description": null,
+      "defaultValue": null,
+      "type": "ID"
+    },
+    {
+      "name": "name",
+      "description": null,
+      "defaultValue": null,
+      "type": "String!"
+    },
+    {
+      "name": "state",
+      "description": "if country us us or ca, state is required otherwise it may be omitted",
+      "defaultValue": null,
+      "type": "String"
+    },
+    {
+      "name": "visibility",
+      "description": "When not provided, defaults to public",
+      "defaultValue": null,
+      "type": "EventVenueVisibility"
+    }
+  ]
+}

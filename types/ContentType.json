@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "ContentType",
+  "description": null,
+  "values": [
+    {
+      "name": "GIF",
+      "description": null
+    },
+    {
+      "name": "JPEG",
+      "description": null
+    },
+    {
+      "name": "PNG",
+      "description": null
+    }
+  ]
+}

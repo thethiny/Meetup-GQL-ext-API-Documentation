@@ -1,0 +1,19 @@
+{
+  "kind": "ENUM",
+  "name": "GroupJoinMode",
+  "description": null,
+  "values": [
+    {
+      "name": "APPROVAL",
+      "description": null
+    },
+    {
+      "name": "CLOSED",
+      "description": null
+    },
+    {
+      "name": "OPEN",
+      "description": null
+    }
+  ]
+}

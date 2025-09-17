@@ -1,0 +1,31 @@
+{
+  "kind": "OBJECT",
+  "name": "GroupGenderMembershipRatios",
+  "description": null,
+  "fields": [
+    {
+      "name": "femaleRatio",
+      "description": "Proportion of members who identify as female",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "maleRatio",
+      "description": "Proportion of members who identify as male",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "otherRatio",
+      "description": "Proportion of members who identify as gender other than male or female",
+      "args": [],
+      "type": "Float!"
+    },
+    {
+      "name": "unknownRatio",
+      "description": "Proportion of members whose gender is unknown",
+      "args": [],
+      "type": "Float!"
+    }
+  ]
+}
